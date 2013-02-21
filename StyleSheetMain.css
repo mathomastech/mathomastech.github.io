@@ -1,0 +1,231 @@
+body{
+
+	/* Gradient */
+	background: -webkit-linear-gradient(left, #000000, #2B0C0C);
+	min-width: 1000px;
+}
+
+/*************************************************************
+*							HEADER							*/
+header{
+	margin-top: 0;
+	margin-bottom: 0;
+	overflow: auto;
+}
+
+/*************************************************************
+*							BUTTON  						*/
+.Nav{
+	float:left;
+	width: 100%;
+	background: none;
+	overflow: hidden;
+	position: relative;
+}
+.Nav ul{
+	clear:left;
+	float:left;
+	list-style: none;
+	margin: 1% 0%;
+	padding: 0;
+	position: relative;
+	left: 50%;
+	text-align: center;
+}
+
+.Nav ul li{
+	display: block;
+	float: left;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	right: 50%;
+}
+
+.Nav a{
+
+	/*background: -webkit-linear-gradient(#687587, #404853);*/
+	background: none;
+	border: 1px solid gray;
+	color: #EFEFE9;
+	display: table-cell;
+	font-size: 20px;
+	text-decoration: none;
+	font-family: Courier;
+	font-weight: bold;
+	padding: 0 50px;
+	line-height: 38px;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.6);
+	text-transform: uppercase;
+}
+
+.Nav a:hover {
+  background: #454d59;
+  font-size: 20px;
+  box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.4);
+  border-right: 1px solid rgba(0, 0, 0, 0.2);
+  color: #d0d2d5;
+}
+
+/* Round off the left edges */
+.Nav li:first-child a {
+  border-left: none;
+  border-radius: 10px 0 0 10px;
+}
+
+/* Round off the right edges */
+.Nav li:last-child a {
+  border-right: none;
+  border-radius: 0 10px 10px 0;
+}
+
+/* 						END BUTTON							*
+*************************************************************
+*						END HEADER							*
+*************************************************************
+*															*
+*															*
+*************************************************************
+*							BODY 							*/
+
+/********Home Page Formatting********/
+
+.MainBody{
+	/* MainBody Specific Formatting  */
+	float:left;
+	background: none;
+	border-top:1px solid gray;
+	height: 500px;
+	margin-top: 1%;
+	margin-left: 10%;
+	padding: 5px;
+	width:  40%;
+}
+	.ArticleTitle{
+		color: #8ec63f;
+		font-size: 30px;
+		margin: 0px 0px -20px 0px;
+	}
+
+	.Author{
+		color: #8c8c8c;
+		font-style: italic;
+		font-size: 13px;
+		font-family: Courier, Times, 'Times New Roman', serif;
+	}
+
+	.MainBodyContent{
+		color: #EFEFE9;
+		font-style: normal;
+		font-size: 15px;
+		font-family: Courier, Times, 'Times New Roman', serif;
+	}
+
+
+
+	.MainBodyAside{
+		/* Para1Aside Specific Formatting  */
+		font-size: 13px;
+		font-weight: lighter;
+		font-style: normal;
+		color: #EFEFE9;
+		font-family: Courier, Times, 'Times New Roman', serif;
+		float:right;
+		background: none;
+		border-left: 1px solid gray;
+		height: 150px;
+		margin-top: 1%;
+		margin-right: 10%;
+		padding: 5px;
+		width: 30%;
+	}
+	
+	.ResBody{
+			color: black;
+			background: #B1B765;
+			margin: 0% 20%;
+			overflow: hidden;
+			border-radius: 10px 10px 10px 10px;
+	}
+
+	.ResName{
+		font-size: 40px;
+		font-family: Courier, Times, 'Times New Roman', serif;
+		text-align: center;
+		margin-bottom: -1%;
+	}
+	
+	.ResContact{
+		font-size: 15px;
+		font-family: Courier, Times, 'Times New Roman', serif;
+		text-align: center;	
+		color: #EFEFE9;
+	}
+
+	.ResContact a:hover{
+		color: #aaaaaa;
+	}
+
+	
+	.ResSchool{
+		margin: 0% 2%;
+		width: 55%;
+		float: left;
+	}
+
+	.ResSchool_Deg{
+		margin: 0% 0%;
+	}
+
+	.ResSchool_Date{
+		margin-top: 8%;
+		float: right;
+		width: 20%;
+		margin-right: 2%
+		text-align: right;
+	}
+
+	.ResWork{
+		width: 100%;
+		float: left;
+		margin: 0% 2%;
+	}
+
+	.JobTitle{
+		overflow: auto;
+	}
+	.Job_Date{
+		margin-top: 2%;
+		float: right;
+		width: 20%;
+		margin-right: 2%
+		text-align: right;
+	}
+	.Employer{
+	 	overflow: auto;
+		margin: -2% 0%;
+	}
+
+	.TechSum{ 
+		float:left;
+		margin: -2% 2%;
+
+	}
+	.TechSumHead{
+
+		width: 100%;
+	}
+
+	.Tech{
+	}
+}
+/* 						END BODY							*
+*************************************************************
+*						FOOTER	 							*/
+
+
+
+
+/* 						END FOOTER							*
+*************************************************************/
