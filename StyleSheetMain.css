@@ -143,12 +143,17 @@ header{
 	
 	.ResBody{
 			color: black;
-			background: #B1B765;
-			margin: 0% 20%;
+			background: white;
+			margin: 0% auto;
 			overflow: hidden;
 			border-radius: 10px 10px 10px 10px;
+			width: 1400px
 	}
-
+	.ResTitle{
+		font-size: 20px;
+		margin-top: 5px;
+		margin-bottom: 5px;	
+	}
 	.ResName{
 		font-size: 40px;
 		font-family: Courier, Times, 'Times New Roman', serif;
@@ -171,19 +176,10 @@ header{
 	.ResSchool{
 		margin: 0% 2%;
 		width: 55%;
-		float: left;
 	}
 
 	.ResSchool_Deg{
 		margin: 0% 0%;
-	}
-
-	.ResSchool_Date{
-		margin-top: 8%;
-		float: right;
-		width: 20%;
-		margin-right: 2%
-		text-align: right;
 	}
 
 	.ResWork{
@@ -194,17 +190,19 @@ header{
 
 	.JobTitle{
 		overflow: auto;
+		margin: 0px 0px;
 	}
-	.Job_Date{
-		margin-top: 2%;
-		float: right;
-		width: 20%;
-		margin-right: 2%
-		text-align: right;
+
+	.JobDate{
+		margin: 0px 0px;
+	}
+	
+	.DutyList{
+		margin: 0px 0px 10px 0px;
 	}
 	.Employer{
 	 	overflow: auto;
-		margin: -2% 0%;
+		margin: 0% 0%;
 	}
 
 	.TechSum{ 
@@ -218,6 +216,11 @@ header{
 	}
 
 	.Tech{
+	}
+	.conBody{
+		background: red;
+		margin: 0px auto;
+		width: 800px;
 	}
 }
 /* 						END BODY							*
