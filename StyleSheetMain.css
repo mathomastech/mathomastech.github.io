@@ -1,7 +1,8 @@
 body{
 
 	/* Gradient */
-	background: -webkit-linear-gradient(left, #000000, #2B0C0C);
+	background-image:url(mochaGrunge_@2X.png);
+	/*background: -webkit-linear-gradient(left, #000000, #2B0C0C);*/
 	min-width: 1000px;
 }
 
@@ -24,7 +25,6 @@ header{
 }
 
 .Nav ul{
-	clear:left;
 	float:left;
 	list-style: none;
 	margin: 1% 0%;
@@ -220,9 +220,13 @@ header{
 	.Tech{
 	}
 
+	.ConHeader{
+		padding-top: 20px;
+	}
 	.ConLabel{
 		float: left;
 		clear: left;
+		margin-left: 25px;
 		width: 80px;
 		font-weight:bold;
 	}
@@ -231,31 +235,41 @@ header{
 		background: white;
 		margin: 0px auto;
 		width: 800px;
+		height: 400px;
+		border-radius: 10px 10px 10px 10px;
+		padding-left:20px;
 	}
-
-	.ContactForm_Generic{
+	.FormInput{
 		border: 1px solid black;
-		clear:left;
-		float:left;
+		border-radius: 5px 5px 5px 5px;
+		width: 200px;
+		clear: left;
+		float: left;
+		margin-left: 25px;
 	}
 
-	.FormName{
-		width: 200px; 
-	}
+	.FormName{}
 
-	.FormEmail{
-		width:200px;
-	}
+	.FormEmail{}
 
 	.FormTitle{
-		width:300px;
+		width: 300px;
 	}
 
 	.FormMessage{
+		clear: left;
+		float: left;
 		width: 700px;
+		height: 100px;
 	}
 
 	.Submit{
+		float: left;
+		background: black;
+		font-size: 15px;
+		border-radius: 10px 10px 10px 10px;
+		color: white;
+		margin-left: 25px;
 	}
 }
 /* 		END BODY	       *
