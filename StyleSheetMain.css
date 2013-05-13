@@ -1,39 +1,40 @@
 body{
 
 	/* Gradient */
-	background-image:url(mochaGrunge_@2X.png);
+	
+	background-image:url("mochaGrunge_@2XV2.png");
 	/*background: -webkit-linear-gradient(left, #000000, #2B0C0C);*/
-	min-width: 1000px;
+	min-width: 960px;
+	font-family: 'Times New Roman', sans-serif, Courier, Times, serif; 	
+	color: black;
+    padding: 0;
+    margin: 0;	
+    overflow-y: scroll;
 }
 
-/****************************************
-*		HEADER			*/
 header{
-	margin-top: 0;
 	margin-bottom: 0;
+	margin-top: 0;
 	overflow: auto;
 }
 
-/*****************************************
-*		BUTTON  		 */
+/*******		BUTTON      *************/
 .Nav{
-	float:left;
-	width: 100%;
 	background: none;
 	overflow: hidden;
 	position: relative;
+    width: auto;
 }
 
 .Nav ul{
 	float:left;
+	left: 50%;
 	list-style: none;
 	margin: 1% 0%;
 	padding: 0;
 	position: relative;
-	left: 50%;
 	text-align: center;
 }
-
 .Nav ul li{
 	display: block;
 	float: left;
@@ -45,27 +46,25 @@ header{
 }
 
 .Nav a{
-	/*background: -webkit-linear-gradient(#687587, #404853);*/
 	background: none;
-	border: 1px solid gray;
-	color: #EFEFE9;
+	border: 1px solid black;
+	color: black;
 	display: table-cell;
-	font-size: 20px;
-	text-decoration: none;
 	font-family: Courier;
-	font-weight: bold;
-	padding: 0 50px;
+	font-size: 20px;
 	line-height: 38px;
+	padding: 0 50px;
+	text-decoration: none;
 	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.6);
 	text-transform: uppercase;
 }
 
 .Nav a:hover {
 	background: #454d59;
-	font-size: 20px;
-	box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.4);
 	border-right: 1px solid rgba(0, 0, 0, 0.2);
+	box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.4);
 	color: #d0d2d5;
+	font-size: 20px;
 }
 
 /* Round off the left edges */
@@ -80,54 +79,40 @@ header{
 	border-radius: 0 10px 10px 0;
 }
 
-/* 		END BUTTON	      *
-***************************************
-*		END HEADER	      *
-***************************************	
-***************************************
-*		BODY 		     */
+
+
 
 /********Home Page Formatting*********/
 
-	.MainBody{
+	.HomeLeft{
 	/* MainBody Specific Formatting  */
-	    float:left;
 	    background: none;
 	    border-top:1px solid gray;
+	    float:left;
 	    height: 500px;
-	    margin-top: 1%;
 	    margin-left: 10%;
+	    margin-top: 1%;
 	    padding: 5px;
 	    width:  40%;
 	}
 
 	.ArticleTitle{
-	    color: #8ec63f;
 	    font-size: 30px;
-	    margin: 0px 0px -20px 0px;
 	}
 
 	.Author{
-	    color: #8c8c8c;
-	    font-style: italic;
 	    font-size: 13px;
-	    font-family: Courier, Times, 'Times New Roman', serif;
 	}
 
 	.MainBodyContent{
-	    color: #EFEFE9;
-	    font-style: normal;
 	    font-size: 15px;
-	    font-family: Courier, Times, 'Times New Roman', serif;
 	}
 
-	.MainBodyAside{
+	.HomeRight{
 	    /* Para1Aside Specific Formatting  */
 	    font-size: 13px;
 	    font-weight: lighter;
 	    font-style: normal;
-	    color: #EFEFE9;
-	    font-family: Courier, Times, 'Times New Roman', serif;
 	    float:right;
 	    background: none;
 	    border-left: 1px solid gray;
@@ -138,9 +123,11 @@ header{
 	    width: 30%;
 	}
 	
+
+/*********    Resume Page Formatting   *********/
+
 	.ResBody{
 	    color: black;
-	    background: white;
 	    margin: 0% auto;
 	    overflow: hidden;
 	    border-radius: 10px 10px 10px 10px;
@@ -152,6 +139,7 @@ header{
 	    width: 50%;
 	    float: left;
 	    margin-left: 100px;
+		padding-left: 25px;
 	}
 
 	.ResTitle{
@@ -162,13 +150,13 @@ header{
 
 	.ResName{
 	    font-size: 40px;
-	    font-family: Courier, Times, 'Times New Roman', serif;
+	 /*   font-family: Courier, Times, 'Times New Roman', serif; */
 	    text-align: center;
 	    margin-bottom: -1%;
 	}
 	
 	.ResContact{
-	    font-family: Courier, Times, 'Times New Roman', serif;
+/*	    font-family: Courier, Times, 'Times New Roman', serif; */
 	    text-align: center;	
 	    color: #EFEFE9;
 	}
@@ -220,6 +208,11 @@ header{
 	.Tech{
 	}
 
+
+
+
+/********* Contact Page Formatting *************/
+
 	.ConHeader{
 		padding-top: 20px;
 	}
@@ -232,7 +225,7 @@ header{
 	}
 
 	.ContactForm{
-		background: white;
+	/*	background: white; */
 		margin: 0px auto;
 		width: 800px;
 		height: 400px;
@@ -271,7 +264,33 @@ header{
 		color: white;
 		margin-left: 25px;
 	}
-}
+
+
+
+
+/************  Blog Formatting ***********/
+	.BlogTemplate{
+		Background: white;
+		margin: 0px auto;
+		width: 800px;
+		border-radius: 10px 10px 10px 10px;
+		padding-left: 20px;
+	}
+	
+	.BlogTitle{
+		font-size: 22px;
+		padding-top: 10px;
+		margin-bottom: 0px;
+	}
+	.BlogAuthor{
+		font-size: 12px;
+		margin-top: 0px;
+		margin-bottom: 2px;
+	}
+	.BlogScript{
+		padding-bottom: 5px;
+		margin-top: 5px;
+	}
 /* 		END BODY	       *
 ****************************************
 *		FOOTER		       */
