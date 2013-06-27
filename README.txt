@@ -1,1 +1,1 @@
-Personal website that has basic information about me, as well as projects I am, or have worked on.
+Personal website that has basic information about me including an HTML formatted resume, blog site, contact form, and projects I am working on.
