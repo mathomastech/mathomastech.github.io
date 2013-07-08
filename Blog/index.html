@@ -1,11 +1,13 @@
 ---
 layout: default
+title: Your New Jekyll Site
 ---
 
-<div class="BlogTemplate">
-		<p class="BlogTitle"><strong>New Website!</strong></p>
-		<p class="BlogAuthor"><em>By Marc Thomas</em></p> 
-		<p class="BlogScript">Welcome to my website. It is still in it's early days, but I hope you see something you like!</p>
-		
-</div>	
-
+<div class=BlogTemplate>
+  <h1>Blog Posts</h1>
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+</div>
