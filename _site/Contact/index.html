@@ -1,26 +1,28 @@
 <!DOCTYPE html>
 <html>
     <head>
-    <link rel="Favicon" href="/fav.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
 	<link rel="stylesheet" href="/css/StyleSheetMain.css">
     </head>
     <body>
     <header>	
 	<div class="Nav">
-            <ul>
-                <li><a href="/" title="Home">Home</a></li>
-                <li><a href="/Resume" title="Resume">Resume</a></li>
-                <li><a href="/Projects" title="Projects">Projects</a></li>
-                <li><a href="/Blog" title="Blog">Blog</a></li>
-		<li><a href="/Contact" title="Contact">Contact</a></li>
+        <ul>
+            <li><a href="/" title="Home">Home</a></li>
+            <li><a href="/Resume" title="Resume">Resume</a></li>
+            <li><a href="/Projects" title="Projects">Projects</a></li>
+            <li><a href="/Blog" title="Blog">Blog</a></li>
+	<!--	<li><a href="/Contact" title="Contact">Contact</a></li>  -->   
 	    </ul>
-    	</div>
+    </div>
     </header>
         <div class="container">
           <div class="site">
             <div class="header">
 
-                <div class="ContactForm">
+                <!--
+<div class="ContactForm">
+	<form action="contact.php" method="post">
     <h2 class="ConHeader">Contact Form:</h2>
 	<label class="ConLabel" for="Name">Name:</label>
 	<input class="FormInput FormName" type="text" name="Name"/>
@@ -31,10 +33,32 @@
 	<label class="ConLabel" for="Message">Message:</label>
 	<textarea class="FormInput FormMessage"name="Message"></textarea>
 	<input class="Submit" type="submit" value="Send Message"/>
-</div>
+-->
+<div class="ContactForm">
+	<a href="mailto:mathomastech@gmail.com?Subject=Contact%20From%20Personal%20Site" target="_top">
+	E-mail</a>
+
+	<a href="https://plus.google.com/u/0/103260909450809151378/about" target="_blank">
+	Google+</a>
+
+	<a href="https://twitter.com/mathomastech" target="_blank">
+	Twitter</a>
+
+</div>  
 
 
             </div>
           </div>
         </div> <!-- /container -->
+
+    <footer class='links'>
+        <a href="mailto:mathomastech@gmail.com?Subject=Contact%20From%20Personal%20Site" target="_top">
+        E-mail</a>
+
+        <a href="https://plus.google.com/u/0/103260909450809151378/about" target="_blank">
+        Google+</a>
+
+        <a href="https://twitter.com/mathomastech" target="_blank">
+        Twitter</a>
+    </footer>
 </html>

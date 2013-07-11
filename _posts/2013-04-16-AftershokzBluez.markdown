@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Aftershokz Bluez Bone Conduction Headphones"
-date:   2012-04-16 12:00:00
+date:   2013-04-16 12:00:00
 categories: review aftershokz technology headphones wireless bluetooth
 ---
 

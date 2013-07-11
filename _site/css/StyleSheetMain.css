@@ -213,6 +213,7 @@ header{
 
 /********* Contact Page Formatting *************/
 
+	/*
 	.ConHeader{
 		padding-top: 20px;
 	}
@@ -223,7 +224,7 @@ header{
 		width: 80px;
 		font-weight:bold;
 	}
-
+	*/
 	.ContactForm{
 	/*	background: white; */
 		margin: 0px auto;
@@ -232,6 +233,8 @@ header{
 		border-radius: 10px 10px 10px 10px;
 		padding-left:20px;
 	}
+
+	/*
 	.FormInput{
 		border: 1px solid black;
 		border-radius: 5px 5px 5px 5px;
@@ -265,7 +268,7 @@ header{
 		margin-left: 25px;
 	}
 
-
+	*/
 
 
 /************  Blog Formatting ***********/
@@ -294,6 +297,11 @@ header{
 /* 		END BODY	       *
 ****************************************
 *		FOOTER		       */
+
+	.links{
+		text-align: center;
+		overflow: auto;
+	}
 
 
 /*		END FOOTER	       *
