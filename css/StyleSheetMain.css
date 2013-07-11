@@ -83,6 +83,9 @@ header{
 
 
 /********Home Page Formatting*********/
+	.home{
+		overflow: auto;
+	}
 
 	.HomeLeft{
 	/* MainBody Specific Formatting  */
@@ -300,7 +303,6 @@ header{
 
 	.links{
 		text-align: center;
-		overflow: auto;
 	}
 
 
