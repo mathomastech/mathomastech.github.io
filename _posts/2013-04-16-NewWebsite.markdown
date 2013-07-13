@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "New Website Launch!"
-date:   2013-07-09 20:07:00
+date:   2013-07-13 01:40:00
 categories: website technology HTML CSS intro
 ---
 
