@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "New Website Launch!"
+author: "Marc Thomas"
 date:   2013-07-12 12:00:00
 categories: website technology HTML CSS intro
 ---
