@@ -12,13 +12,13 @@ It was around that time in 2010 that I first dual booted my machine with Ubuntu 
 
 In the last several months, I have been working on tons of bug fixes, calculation enhancements, and two significantly involved sheets to help budget not just for today, but for the coming months, and even for the coming years. These two sheets are "Projections", and "Loan Projections". 
 
-*Projections* 
+**Projections** <br>
 This sheet was designed specifically to analyze a user's monthly recurring expenses such as: Rent, Utilities, Loans, Gym Memberships, etc, etc. It is also designed for the purpose of helping the user plan their future expenses, and to see what kind of impact a significant purchase next month, or even next year will have on their financial stability. I built and tested this sheet in the template, but found it so ridiculously useful that I decided to back port it back to both my 2013 budget, and my girlfriends. It is currently in production and has had a huge impact on my spending habits.
 
-*Loan Projections*
+**Loan Projections** <br>
 This sheet is designed to help with a problem many people face, debt. While I don't own any credit card myself, I do however have student loans. I designed this sheet to help me see where my debt will be at any given month over the next 10 years. The formula's used in this sheet take into account interest, or APR, as well as a set monthly payment. The calculations are even smart enough to allow you to alter a specific months payment, higher or lower, without effecting the set monthly payment for other months.
 
-*Conclusion*
+**Conclusion** <br>
 These two new sheets are beautifully dynamic, extremely powerful, and wonderfully useful. In fact, I have found this document remarkably useful even before the 2014 improvements. So much so that I have decided to make it publically available to anyone who wants it.
  
 To view the working copy of the template, take a look [here][2]. Any feedback would be greatly appreciated, as I am always trying to make improvements.
