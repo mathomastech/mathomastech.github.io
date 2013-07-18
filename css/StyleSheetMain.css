@@ -105,7 +105,7 @@ header{
 }
 
 
-/********Home Page Formatting*********/
+/******** Home Page Formatting *********/
 .home{
 	overflow: auto;
 	text-align: center;
@@ -210,6 +210,21 @@ header{
 }
 
 .tech{
+}
+
+/************  Project Formatting ***********/
+.projectLanding{
+	padding: 5px;
+	text-align: center;
+	margin: 2% 30%;
+	border-top:1px solid gray;
+	border-bottom: 1px solid gray;
+}
+
+.projectThumb{
+	border: 2px solid black;
+	border-radius: 5%;
+	display: inline block;
 }
 
 /************  Blog Formatting ***********/
