@@ -110,24 +110,13 @@ header{
 	overflow: auto;
 	text-align: center;
 	margin: 2% 30%;
-
 	background: none;
 	border-top:1px solid gray;
 	border-bottom: 1px solid gray;
+	font-size: 15px;
 
 }
 
-.homeLeft{
-	/* MainBody Specific Formatting  */
-	background: none;
-	border-top:1px solid gray;
-	float:left;
-	height: 500px;
-	margin-left: 10%;
-	margin-top: 1%;
-	padding: 5px;
-	width:  40%;
-}
 
 .homeTitle{
 	font-size: 30px;
