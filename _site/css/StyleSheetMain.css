@@ -225,12 +225,23 @@ header{
 	border: 2px solid black;
 	border-radius: 5%;
 	display: inline block;
+	text-align: center;
+}
+
+.projectLink{
+	display: inline block;
+	position: relative;
+	text-align: center;
 }
 
 .imageText{
-	position: absolute;
 	text-align: center;
-	font-size: 22px;
+	position: absolute;
+	font-size: 20px;
+	bottom:5px;
+	color:black;
+	left:10%;
+	right: 10%;
 }
 
 /************  Blog Formatting ***********/
