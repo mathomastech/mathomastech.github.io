@@ -227,6 +227,12 @@ header{
 	display: inline block;
 }
 
+.imageText{
+	position: absolute;
+	text-align: center;
+	font-size: 22px;
+}
+
 /************  Blog Formatting ***********/
 .blogLanding{
 	margin: 0px auto;
