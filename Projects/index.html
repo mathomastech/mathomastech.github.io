@@ -5,16 +5,8 @@ layout: default
 <div class=projectLanding>
 
 	<p class="projectLanding">Under Construction<br></br>Content Coming Soon!</p>
-	<h1>Projects</h1>
-	<ul class="postList">
-    	{% for post in site.posts %}
-	    	{% if post.category contains 'project' %}
-    	  		<li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    		{% endif %}
-    	{% endfor %}
-  	</ul>
-
-    <a class="projectPage"  href="/Projects/budget.html">
+	<ul class="postList">    
+    <a class="projectPage" href="/Projects/BudgetTemplate.html">
     <span class="imageText">Budget Template</span>
     <img class="projectThumb" src="/icons/budgetThumb.png" alt="Budget" title="Budget"/></a>
 
