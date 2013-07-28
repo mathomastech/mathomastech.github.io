@@ -10,19 +10,19 @@ categories: Budget Financial Finances Spreadsheet Google Drive Docs
 In the following links, you will find details for each type of page in the budget. The 2 most complicated are "Projections", and "Loan Projections". The "Overview" sheet also has some unique behavior. The remaining sheets are similiar enough that learning one will help you use the others.
 
 <ul class = "projectQuickLinks">
-    <li><a class="projectPage"  href="https://docs.google.com/spreadsheet/ccc?key=0AnHTaegW0AL-dE15NHhHUkhyREUwSENTWHZqQmFFTlE&usp=sharing" target="_blank">Link to project</a></li>
+    <li><a class="projectPage"  href="https://docs.google.com/spreadsheet/ccc?key=0AnHTaegW0AL-dE15NHhHUkhyREUwSENTWHZqQmFFTlE&amp;usp=sharing" target="_blank">Link to project</a></li>
 
-    <li><a class="projectPage"  href="https://docs.google.com/spreadsheet/ccc?key=0AnHTaegW0AL-dE15NHhHUkhyREUwSENTWHZqQmFFTlE&usp=sharing" target="_blank">Overview</a></li>
+    <li><a class="projectPage"  href="https://docs.google.com/spreadsheet/ccc?key=0AnHTaegW0AL-dE15NHhHUkhyREUwSENTWHZqQmFFTlE&amp;usp=sharing" target="_blank">Overview</a></li>
 
-    <li><a class="projectPage"  href="https://docs.google.com/spreadsheet/ccc?key=0AnHTaegW0AL-dE15NHhHUkhyREUwSENTWHZqQmFFTlE&usp=sharing" target="_blank">Projections</a></li>
+    <li><a class="projectPage"  href="https://docs.google.com/spreadsheet/ccc?key=0AnHTaegW0AL-dE15NHhHUkhyREUwSENTWHZqQmFFTlE&amp;usp=sharing" target="_blank">Projections</a></li>
 
-    <li><a class="projectPage"  href="https://docs.google.com/spreadsheet/ccc?key=0AnHTaegW0AL-dE15NHhHUkhyREUwSENTWHZqQmFFTlE&usp=sharing" target="_blank">Loan Projections</a></li>
+    <li><a class="projectPage"  href="https://docs.google.com/spreadsheet/ccc?key=0AnHTaegW0AL-dE15NHhHUkhyREUwSENTWHZqQmFFTlE&amp;usp=sharing" target="_blank">Loan Projections</a></li>
 
-	<li><a class="projectPage"  href="https://docs.google.com/spreadsheet/ccc?key=0AnHTaegW0AL-dE15NHhHUkhyREUwSENTWHZqQmFFTlE&usp=sharing" target="_blank">Income</a></li>
+	<li><a class="projectPage"  href="https://docs.google.com/spreadsheet/ccc?key=0AnHTaegW0AL-dE15NHhHUkhyREUwSENTWHZqQmFFTlE&amp;usp=sharing" target="_blank">Income</a></li>
 
-	<li><a class="projectPage"  href="https://docs.google.com/spreadsheet/ccc?key=0AnHTaegW0AL-dE15NHhHUkhyREUwSENTWHZqQmFFTlE&usp=sharing" target="_blank">Expenses (Type A)</a></li>
+	<li><a class="projectPage"  href="https://docs.google.com/spreadsheet/ccc?key=0AnHTaegW0AL-dE15NHhHUkhyREUwSENTWHZqQmFFTlE&amp;usp=sharing" target="_blank">Expenses (Type A)</a></li>
 
-	<li><a class="projectPage"  href="https://docs.google.com/spreadsheet/ccc?key=0AnHTaegW0AL-dE15NHhHUkhyREUwSENTWHZqQmFFTlE&usp=sharing" target="_blank">Expenses (Type 2)</a></li>
+	<li><a class="projectPage"  href="https://docs.google.com/spreadsheet/ccc?key=0AnHTaegW0AL-dE15NHhHUkhyREUwSENTWHZqQmFFTlE&amp;usp=sharing" target="_blank">Expenses (Type 2)</a></li>
 </ul>
 
 ##Overview##
