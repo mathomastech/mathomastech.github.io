@@ -281,6 +281,7 @@ header{
 	text-align: center;
 	margin: 0% 10%;
 }
+
 .projectTemplate img{
 	border: 2px solid black;
 	margin: 2px;
@@ -324,6 +325,11 @@ header{
 	margin: 0% 15%;
 }
 
+.blogMapsImg img{
+	border: 2px solid black;
+	margin: 3%;
+
+}
 
 /* 		END BODY	       *
 ****************************************

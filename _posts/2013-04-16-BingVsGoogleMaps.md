@@ -8,6 +8,11 @@ categories: review Bing Google Maps Navigation Toyota Prius technology
 ---
 
 
+<a class="blogMapsImg" href="/img/MapsReview/bingMaps.jpg" data-lightbox="BudgetOverview"><img src="/img/MapsReview/bingMaps.jpg" alt="Google Maps" width="408" height="306"/></a>
+
+<a class="blogMapsImg" href="/img/MapsReview/googleMaps.jpg" data-lightbox="BudgetOverview"><img src="/img/MapsReview/googleMaps.jpg" alt="Google Maps" width="408" height="306"/></a>
+
+
 Earlier this week, I ordered myself this <a href="http://www.amazon.com/gp/product/B00BNQCSE6/ref=ox_ya_os_product" target="_blank">CD slot mount</a> for my car in order to mount my Nexus 7 and use it for navigation. I have a 2013 Toyota Prius with a built in display and navigation. It's a phenominal car with only 2 complaints. The speakers are sub par, and the built in maps are running Bing.
 
 For the run of the mill person who doesn't care what maps are being run, only that they have navigation, that isn't really a problem. But I had been using my Nexus 7 and Nexus 4 for navigation in my previous car that when switching to the build in maps running Bing, it felt like going backwards. For the most part, the Bing maps are good. They "usually" have the POI's I need in their database, and the directions get me where I need to go. But that's about it.
