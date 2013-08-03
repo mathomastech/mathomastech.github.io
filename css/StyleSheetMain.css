@@ -335,5 +335,12 @@ header{
 ****************************************
 *		FOOTER		       */
 
+.footer{
+	border-top: 2px solid gray;
+	text-align: center;
+	position:fixed;
+	bottom: 0px;
+}
+
 /*		END FOOTER	       *
 ****************************************/
