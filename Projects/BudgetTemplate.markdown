@@ -28,9 +28,9 @@ In the following links, you will find details for each type of page in the templ
 ##Overview##
 
 <a href="/img/BudgetTemplate/BudgetOverview.png" data-lightbox="BudgetOverview"><img src="/img/BudgetTemplate/BudgetOverview.png" alt="Budget Overview" width="800" height="300"/></a>
-
+<p></p>
 <p class="projectContent">
-The overview is your landing page, and also one of the most useful. While you don't edit much here, this is where you can begin to understand how your money is being spent. There are a few things you need to do here for setup and maintanence and they are:</p>
+The <strong><em>Overview</em></strong> is your landing page, and also one of the most useful. While you don't edit much here, this is where you can begin to understand how your money is being spent. There are a few things you need to do here for setup and maintanence and they are:</p>
 <p></p>
 <ol class="projectContent">
 	<li><strong>Set your year.</strong></li>
@@ -50,7 +50,7 @@ Off to the right, you will see <strong><em>Avg/Month</em></strong>. Use this to 
 <a id="Projections"></a>
 ##Projections##
 <a href="/img/BudgetTemplate/Projections.png" data-lightbox="Projections"><img src="/img/BudgetTemplate/Projections.png" alt="Projections" width="800" height="300"/></a>
-
+<p></p>
 <p class="projectContent">
 The projections page is something I began work on a few months ago as a tool to help me predict/anticipate my finances in the coming months, and coming years. To begin, first you need some starting informaion, namely what are your recurring expenses. If you look to the far right of the sheet, you will find four columns for recurring expenses. </p>
 <p></p>
@@ -74,7 +74,7 @@ The projections page is something I began work on a few months ago as a tool to 
 <a id="LoanProjections"></a>
 ##Loan Projections##
 <a href="/img/BudgetTemplate/LoanProjections.png" data-lightbox="Loan Projections"><img src="/img/BudgetTemplate/LoanProjections.png" alt="Loan Projections" width="800" height="300"/></a>
-
+<p></p>
 <p class="projectContent">
 	The loan projections page is something new I've been working on to help predict how long it will take to pay off loans, credits cards, or other forms of outstanding balance payments. To use this, start by renaming <strong><em>Loan 1</em></strong> to the name of your loan, for example "Chase Card". Put your current outstanding balance in the <strong><em>Current Balance</em></strong> column. Add in your Annual Percentage Rate (APR), and your monthly expected payment.  The title of the Loan will automatically change in the first row. From there, the current balance minus the months payment will be inserted into the current months cell. All following cells will populate with the balance of the previous month minus the payment plus interest. If you want to make an alternate payment for a specific month, either more or less than your default, you can put that number in the "Alt Payment" column and it will automatically adjust the current month, and all following months accordingly. Whenever a loan is completely payed off, it will zero out the balance of that loan for all future months. This is a great way to figure out how long it will take to pay off outstanding balances at any given recurring payment value, and how much additional payments of a specific value will effect the balance of the loan months or years in advance. By default, 4 loans are displayed, however you can have as many as 10 by unhiding the columns. 
 </p>
@@ -85,7 +85,7 @@ The projections page is something I began work on a few months ago as a tool to 
 <a href="/img/BudgetTemplate/Income.png" data-lightbox="Income"><img src="/img/BudgetTemplate/Income.png" alt="Income" width="400" height="300"/></a>
 
 <a href="/img/BudgetTemplate/Expenses1.png" data-lightbox="Expenses1"><img src="/img/BudgetTemplate/Expenses1.png" alt="Expenses1" width="400" height="300"/></a>
-
+<p></p>
 <p class="projectContent">
 	The <strong><em>Income and Expense (Type A)</em></strong> are nearly Identical. To use, simply put you income/expenses in the row with the appropriate month name, the date of the log entry (Not required, but I have found it useful) and add a description of the log (also not required, but useful). The overview will automatically populate based on the values logged in these pages.
 </p>
@@ -93,6 +93,7 @@ The projections page is something I began work on a few months ago as a tool to 
 <a id="Expenses(B)"></a>
 ##Expenses (Type B)##
 <a href="/img/BudgetTemplate/Expenses2.png" data-lightbox="Expenses2"><img src="/img/BudgetTemplate/Expenses2.png" alt="Expenses2" width="800" height="300"/></a>
+<p></p>
 <p class="projectContent">
 	Nearly identical concept to <strong><em>Income and Expense (Type A)</em></strong>, the only different is the layout. Sheets that use this layout are for categories that only have 1 payment each month. Unlike something like restaurants where you may log in 10 or 20 restaurant expenses, you will only be paying a phone or electric bill once per month. Totals are agregated so you can see how much you are spending each month for all items in this category (row total), as well as how much you have spent all year for a specific item in the category (column total).
 </p>
