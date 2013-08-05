@@ -127,6 +127,24 @@ header{
 }
 
 
+.homeWidget{
+	text-align: left;
+	font-weight: lighter;
+	font-style: normal;
+	float:left;
+	background: none;
+	height: 700px;
+	margin-top: 0%;
+	margin-right: 0%;
+	padding: 5px;
+	padding-top: 14%;
+	width: 25%;
+	position: fixed;
+	top: 0%;
+	left: 1%;
+	line-height: 40px;
+}
+
 /*********    Resume Page Formatting   *********/
 
 .resBody{
@@ -285,7 +303,6 @@ header{
 .projectTemplate img{
 	border: 2px solid black;
 	margin: 2px;
-
 }
 
 .projectHeader{
