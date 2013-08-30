@@ -348,6 +348,12 @@ header{
 
 }
 
+.centeredImageNoBorder img{
+	border: none;
+	margin-left: 40%;
+	margin-right: 50%;
+}
+
 /* 		END BODY	       *
 ****************************************
 *		FOOTER		       */
