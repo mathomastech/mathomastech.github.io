@@ -7,10 +7,6 @@ date:   2013-08-29 12:00:00
 categories: google tasks to-do list gmail keep review technology
 ---
 
-
-
-<strong>Google Tasks:</strong>
-
 I have been using Google Tasks for many years now as a simple to-do list. During my college years, I created a list for each class, and then put all the relavent assignment and due dates in their respective lists. Currently, I have 3 active task lists.
 
 <ul>
