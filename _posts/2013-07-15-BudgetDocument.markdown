@@ -25,6 +25,6 @@ These two new sheets are beautifully dynamic, extremely powerful, and wonderfull
 To view the working copy of the template, take a look [here][2]. Any feedback would be greatly appreciated, as I am always trying to make improvements.
 
 [1]: https://drive.google.com
-[2]: https://docs.google.com/spreadsheet/ccc?key=0AnHTaegW0AL-dE15NHhHUkhyREUwSENTWHZqQmFFTlE&usp=sharing
+[2]: https://drive.google.com/templates?view=public&authorId=01784685571608047934
 
 
