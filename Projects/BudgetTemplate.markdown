@@ -11,7 +11,7 @@ In the following links, you will find details for each type of page in the templ
 </p>
 <p></p>
 <ul class = "projectQuickLinks">
-    <li><a class="projectPage"  href="https://drive.google.com/templates?view=public&amp;authorId=01784685571608047934">Link to project</a></li>
+    <li><a class="projectPage"  href="https://drive.google.com/templates?view=publi&amp;cauthorId=01784685571608047934">Link to project</a></li>
 
     <li><a class="projectPage"  href="#Overview">Overview</a></li>
 
