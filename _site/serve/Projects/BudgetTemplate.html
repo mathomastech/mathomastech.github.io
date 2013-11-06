@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <link rel="shortcut icon" type="image/x-icon" href="/icons/favicon.ico">
+	<link rel="stylesheet" href="/css/StyleSheetMain.css">
+    <link rel="stylesheet" href="/css/lightbox.css"/>
+    <script src="/js/jquery-1.10.2.min.js"></script>
+    <script src="/js/lightbox-2.6.min.js"></script>
+    </head>
+    <body>
+    <header>
+	<div class="nav">
+        <ul>
+            <li><a href="/" title="Home">Home</a></li>
+            <li><a href="/Resume" title="Resume">Resume</a></li>
+            <li><a href="/Projects" title="Projects">Projects</a></li>
+            <li><a href="/Blog" title="Blog">Blog</a></li>
+	<!--	<li><a href="/Contact" title="Contact">Contact</a></li>  -->   
+	    </ul>
+    </div>
+    </header>
+        <div class="wrapper">
+            <div class="container">
+                <div class="site">
+                    <div class="header">
+                        <h2 class="postTitle">Budget Template - Google Spreadsheet</h2>
+<h3 class="author"><em>By: Marc Thomas</em></h3>
+<p class="meta">27 Jul 2013</p>
+
+<div class="projectTemplate">
+<p class='projectHeader'>
+In the following links, you will find details for each type of page in the template. The 2 most complicated are "Projections", and "Loan Projections". The "Overview" sheet also has some unique behavior. The remaining sheets are similiar enough that learning one will help you use the others.
+</p><p /><ul class='projectQuickLinks'>
+    <li><a class='projectPage' href='https://drive.google.com/templates?view=public&amp;authorId=01784685571608047934'>Link to project</a></li>
+
+    <li><a class='projectPage' href='#Overview'>Overview</a></li>
+
+    <li><a class='projectPage' href='#Projections'>Projections</a></li>
+
+    <li><a class='projectPage' href='#LoanProjections'>Loan Projections</a></li>
+
+	<li><a class='projectPage' href='#IncomeExpenses'>Income</a></li>
+
+	<li><a class='projectPage' href='#Expenses(B)'>Expenses (Type B)</a></li>
+</ul><a id='Overview' />
+<h2 id='overview'>Overview</h2>
+<a data-lightbox='BudgetOverview' href='/img/BudgetTemplate/BudgetOverview.png'><img alt='Budget Overview' height='300' src='/img/BudgetTemplate/BudgetOverview.png' width='800' /></a><p /><p class='projectContent'>
+The <strong><em>Overview</em></strong> is your landing page, and also one of the most useful. While you don't edit much here, this is where you can begin to understand how your money is being spent. There are a few things you need to do here for setup and maintanence and they are:</p><p /><ol class='projectContent'>
+	<li><strong>Set your year.</strong></li>
+		<ul>This is critical as there are several other sheets that rely on the year you enter. Namely <strong><em>Projections</em></strong> and <strong><em>Loan Projections</em></strong>. Simply enter "2013" or whatever year you are using this budget for.</ul>
+	<li><strong>Add your starting balance.</strong></li> 
+		<ul>This number is added to your total balance, but is not included in any specific month's income. This way it won't skew data.</ul>
+	<li><strong>Add your balances next to the "Bank 1" and "Bank 2" cells.</strong></li>
+		<ul>If you have more than two balances (i.e. Personal Saving account and Personal Checking account, Spouses Checking Account, etc,) then you can add more cells as needed. Just don't forget to modify the <strong><em>Total:</em></strong> formula accordingly.</ul>
+</ol><p /><p class='projectContent'>
+The remainder of this sheet is completely automated. After initial setup, this is how best to use the sheet. Whenever you make purchases, be sure to update the balances of your respective accounts. The budget will then compare your balances with how much income/expenses you have logged throughout the budget. If everything was logged correctly, the variance will be <strong><em>$0.00</em></strong>. If there are mistakes in any logged items, there will be a variance, and you will have to go through and find it.
+
+Off to the right, you will see <strong><em>Avg/Month</em></strong>. Use this to estimate how much you spend or make in a certain category per month. Next is <strong><em>Maximum</em></strong>. While I have not found a legitamate use for this yet, I do find it and interesting data point. Lastly, <strong><em>Percentage</em></strong>. This one is very useful, as it will tell you how much money you spend in each category in relation to every other category. It does the same for income, so you can guage just how much of your money comes from or goes to a particular piece of your budget. Using this, I have noticed that I spend a significant percentage more than I realized on restuarants. Since realizing that, I have been working to decrease that and have had some success.
+</p><a id='Projections' />
+<h2 id='projections'>Projections</h2>
+<a data-lightbox='Projections' href='/img/BudgetTemplate/Projections.png'><img alt='Projections' height='300' src='/img/BudgetTemplate/Projections.png' width='800' /></a><p /><p class='projectContent'>
+The projections page is something I began work on a few months ago as a tool to help me predict/anticipate my finances in the coming months, and coming years. To begin, first you need some starting informaion, namely what are your recurring expenses. If you look to the far right of the sheet, you will find four columns for recurring expenses. </p><p /><ol class='projectContent'>
+	<li><strong>Recurring Expenses:</strong></li>
+		<ul>This is your category field. There are a handful of default items, but you can change these or add more as you see fit. *Note: Changing these default categories will cause the "Projected Remaining" column to give you false information.</ul>
+	<li><strong>Projected Recurring:</strong></li>
+		<ul>This is an estimate of how much money you spend on each category. It will apply the sum of all these costs as your recurring expenses for all future months (not including the current month)</ul>
+	<li><strong>Projected Current:</strong></li>
+		<ul>This is an estimate of how much you are budgeting for each category for the current month. Use this to adjust your values throughout the month to make your budget. If you know you will be short on income, it is a great way to find ways of saving some money by cutting extra expenses.</ul>
+	<li><strong>Projected Remaining:</strong></li>
+		<ul>This column tells you how much money in each category remains to be spent for the current month. The calculation takes the value from <strong><em>Projected Current</em></strong>, subtracts to current months total expenses in the category based on the value from the overview page, and returns the different. It will zero out if you have no remaining funds in that category.</ul>
+</ol><p /><p class='projectContent'>
+	*Note: As stated earlier, if you change the category names, the formula to compare the Projected Current and the overview values will not be comparing correctly. You will need to adjust the formula to substract from the correct row.
+</p><p /><a id='LoanProjections' />
+<h2 id='loan_projections'>Loan Projections</h2>
+<a data-lightbox='Loan Projections' href='/img/BudgetTemplate/LoanProjections.png'><img alt='Loan Projections' height='300' src='/img/BudgetTemplate/LoanProjections.png' width='800' /></a><p /><p class='projectContent'>
+	The loan projections page is something new I've been working on to help predict how long it will take to pay off loans, credits cards, or other forms of outstanding balance payments. To use this, start by renaming <strong><em>Loan 1</em></strong> to the name of your loan, for example "Chase Card". Put your current outstanding balance in the <strong><em>Current Balance</em></strong> column. Add in your Annual Percentage Rate (APR), and your monthly expected payment.  The title of the Loan will automatically change in the first row. From there, the current balance minus the months payment will be inserted into the current months cell. All following cells will populate with the balance of the previous month minus the payment plus interest. If you want to make an alternate payment for a specific month, either more or less than your default, you can put that number in the "Alt Payment" column and it will automatically adjust the current month, and all following months accordingly. Whenever a loan is completely payed off, it will zero out the balance of that loan for all future months. This is a great way to figure out how long it will take to pay off outstanding balances at any given recurring payment value, and how much additional payments of a specific value will effect the balance of the loan months or years in advance. By default, 4 loans are displayed, however you can have as many as 10 by unhiding the columns. 
+</p><a id='IncomeExpenses' />
+<h2 id='income_and_expenses_type_a'>Income and Expenses (Type A)</h2>
+<a data-lightbox='Income' href='/img/BudgetTemplate/Income.png'><img alt='Income' height='300' src='/img/BudgetTemplate/Income.png' width='400' /></a><a data-lightbox='Expenses1' href='/img/BudgetTemplate/Expenses1.png'><img alt='Expenses1' height='300' src='/img/BudgetTemplate/Expenses1.png' width='400' /></a><p /><p class='projectContent'>
+	The <strong><em>Income and Expense (Type A)</em></strong> are nearly Identical. To use, simply put you income/expenses in the row with the appropriate month name, the date of the log entry (Not required, but I have found it useful) and add a description of the log (also not required, but useful). The overview will automatically populate based on the values logged in these pages.
+</p><a id='Expenses(B)' />
+<h2 id='expenses_type_b'>Expenses (Type B)</h2>
+<a data-lightbox='Expenses2' href='/img/BudgetTemplate/Expenses2.png'><img alt='Expenses2' height='300' src='/img/BudgetTemplate/Expenses2.png' width='800' /></a><p /><p class='projectContent'>
+	Nearly identical concept to <strong><em>Income and Expense (Type A)</em></strong>, the only different is the layout. Sheets that use this layout are for categories that only have 1 payment each month. Unlike something like restaurants where you may log in 10 or 20 restaurant expenses, you will only be paying a phone or electric bill once per month. Totals are agregated so you can see how much you are spending each month for all items in this category (row total), as well as how much you have spent all year for a specific item in the category (column total).
+</p>
+</div>
+  
+                    </div>
+                    <aside>
+                        <ul class="links">
+                            <li>
+                                <a href="mailto:mathomastech@gmail.com?Subject=Contact%20From%20Personal%20Site" target="_top">
+                                <img src="/icons/gmailcracked.png" alt="Email" title="Email"/></a>
+                            </li>
+                            <li>
+                                <a href="https://plus.google.com/u/0/103260909450809151378/about" target="_blank">
+                                <img src="/icons/g+cracked.png" alt="GooglePlus" title="Google+"/></a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/mathomastech" target="_blank">
+                                <img src="/icons/twittercracked.png" alt="Twitter" title="Twitter"/></a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/mathomastech" target="_blank">
+                                <img src="/icons/githubcracked.png" alt="Github" title="Github"/></a>
+                            </li>
+                            <li>
+                                <a href="http://www.linkedin.com/in/mathomastech" target="_blank">
+                                <img src="/icons/linkedincracked.png" alt="LinkedIn" title="LinkedIn"/></a>
+                            </li>
+                            <li>
+                                <a href="http://steamcommunity.com/id/Sniper_Zero/" target="_blank">
+                                <img src="/icons/SteamCracked.png" alt="Steam" title="Steam"/></a>
+                            </li>
+                        </ul>
+                    </aside> 
+                </div>
+            </div> <!-- /container -->
+        </div>
+    <div 
+        class="push">
+    </div>
+</html>
