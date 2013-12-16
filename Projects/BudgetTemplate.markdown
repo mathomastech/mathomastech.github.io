@@ -32,9 +32,9 @@ In the following links, you will find details for each type of page in the templ
 </ul>
 
 
-##Getting Started##
 <a id="GettingStarted"></a>
-<a href="" data-lightbox="GettingStarted"><img src="" alt="Getting Started" width="800" height="300"/></a>
+##Getting Started##
+<a href="/img/BudgetTemplate/GettingStarted.png" data-lightbox="GettingStarted"><img src="/img/BudgetTemplate/GettingStarted.png" alt="Getting Started" width="800" height="300"/></a>
 The <strong><em>Getting Started</em></strong> page is one of the newest additions to this template. On this page you will find everything you need to know about setting up your budget and how to use it. There are pieces of information it will require from you, including the current year, and your bank balances. These are critical pieces of information. If they are ignored, parts of the template will become completely unusable. Make sure to take the time to fill out the information, and read through the tips and tricks.
 
 
@@ -49,12 +49,13 @@ The <strong><em>Overview</em></strong> is your landing page, and also one of the
 <p class="projectContent">
 The only part of this sheet that you should be editing are the fields at the bottom designating bank account names and their balances. The remainder of this sheet is completely automated. This is how best to use the sheet. Whenever you make purchases, update the balances of your respective accounts. The budget will then compare your balances with how much income/expenses you have logged throughout the budget. If everything was logged correctly, the variance will be <strong><em>$0.00</em></strong>. If there are mistakes in any logged items, there will be a variance, and you will have to go through and find it.
 
-Off to the right, you will see <strong><em>Avg/Month</em></strong>. Use this to estimate how much you spend or make in a certain category per month. Next is <strong><em>Maximum</em></strong>. While I have not found a legitamate use for this yet, I do find it and interesting data point.
+Off to the right, you will see <strong><em>Avg/Month</em></strong>. Use this to estimate how much you spend or make in a certain category per month. Next is <strong><em>Maximum</em></strong>. While I have not found a legitamate use for this yet, I do find it an interesting data point.
 </p>
 
 <a id="Projections"></a>
 ##Projections##
-<a href="/img/BudgetTemplate/Projections.png" data-lightbox="Projections"><img src="/img/BudgetTemplate/Projections.png" alt="Projections" width="800" height="300"/></a>
+<a href="/img/BudgetTemplate/Projections-1.png" data-lightbox="Projections"><img src="/img/BudgetTemplate/Projections-1.png" alt="Projections" width="800" height="300"/></a>
+<a href="/img/BudgetTemplate/Projections-2.png" data-lightbox="Projections"><img src="/img/BudgetTemplate/Projections-2.png" alt="Projections" width="800" height="300"/></a>
 <p></p>
 <p class="projectContent">
 The projections page is something I began work on in early 2013 as a tool to help me predict/anticipate my finances in the coming months and years. To begin, first you need some starting informaion, namely what are your recurring expenses. If you look to the far right of the sheet, you will find a handful of columns for recurring expenses. </p>
@@ -68,26 +69,26 @@ The projections page is something I began work on in early 2013 as a tool to hel
 	<li><strong>Projected Current:</strong></li>
 		<ul>This is an estimate of how much you are budgeting for each category for the current month. Use this to adjust your values throughout the month to make your budget. If you know you will be short on income, it is a great way to find ways of saving some money by cutting extra expenses.</ul>
 	<li><strong>Projected Remaining:</strong></li>
-		<ul>This column tells you how much money in each category remains to be spent for the current month. The calculation takes the value from <strong><em>Projected Current</em></strong>, subtracts the current months total expenses in the category based on the value from the overview page, and returns the different. It will zero out if you have no remaining funds in that category.</ul>
+		<ul>This column tells you how much money in each category remains to be spent for the current month. The calculation takes the value from <strong><em>Projected Current</em></strong>, subtracts the current months total expenses in the category based on the value from the overview page, and returns the difference. It will zero out if you have no remaining funds in that category.</ul>
     <li><strong>Yearly Totals:</strong></li>
-        <ul>This final column is a calculation that is used on the <strong><em>Reports</em></strong> sheet. By defaul, it takes the <em>Projects Remaining Expenses</em> and multiplies it by 12 for each month. This works relatively well, but certain categories may not be a monthly expense. For instance, Gifts may be 0 on a month-to-month bases, but may have a rather large value for December. Another example is that medical may have a certain amount allocated per month for a prescription cost, but it will cost more than that per year when you start including doctor visits, or the possibility of an emergency cost. My recommendation here is to modify the default values for certain categories to reflect non-month-to-month costs. Either adjust the formula, or just go ahead and replace it with a number.</ul>
+        <ul>This final column is a calculation that is used on the <strong><em>Reports</em></strong> sheet. By default, it takes the <em>Projects Remaining Expenses</em> and multiplies it by 12 for each month. This works relatively well, but certain categories may not be a monthly expense. For instance, Gifts may be 0 on a month-to-month bases, but may have a rather large value for December. Another example is that medical may have a certain amount allocated per month for a prescription cost, but it will cost more than that per year when you start including doctor visits, or the possibility of an emergency cost. My recommendation here is to modify the default values for certain categories to reflect non-month-to-month costs. Either adjust the formula, or just go ahead and replace it with a number.</ul>
 </ol>
 <p></p>
 
 <a id="LoanProjections"></a>
 ##Loan Projections##
-<a href="/img/BudgetTemplate/LoanProjections.png" data-lightbox="Loan Projections"><img src="/img/BudgetTemplate/LoanProjections.png" alt="Loan Projections" width="800" height="300"/></a>
+<a href="/img/BudgetTemplate/LoanProjections-1.png" data-lightbox="Loan Projections"><img src="/img/BudgetTemplate/LoanProjections-1.png" alt="Loan Projections" width="800" height="300"/></a>
+<a href="/img/BudgetTemplate/LoanProjections-2.png" data-lightbox="Loan Projections"><img src="/img/BudgetTemplate/LoanProjections-2.png" alt="Loan Projections" width="800" height="300"/></a>
 <p></p>
 <p class="projectContent">
-	The loan projections page is something new I've been working on to help predict how long it will take to pay off loans, credits cards, or other forms of outstanding balance payments. To use this, start by renaming <strong><em>Loan 1</em></strong> to the name of your loan, for example "Chase Card". Put your current outstanding balance in the <strong><em>Current Balance</em></strong> column. Add in your Annual Percentage Rate (APR), and your monthly expected payment.  The title of the Loan will automatically change in the first row. From there, the current balance minus the months payment will be inserted into the current months cell. All following cells will populate with the balance of the previous month minus the payment plus interest. If you want to make an alternate payment for a specific month, either more or less than your default, you can put that number in the "Alt Payment" column and it will automatically adjust the current month, and all following months accordingly. Whenever a loan is completely payed off, it will zero out the balance of that loan for all future months. This is a great way to figure out how long it will take to pay off outstanding balances at any given recurring payment value, and how much additional payments of a specific value will effect the balance of the loan months or years in advance. By default, 4 loans are displayed, however you can have as many as 10 by unhiding the columns. 
+	The loan projections page is something new I've been working on to help predict how long it will take to pay off loans, credits cards, or other forms of outstanding balance payments. Make sure to give each of your loans names, balances and APR's. There is a section on the right side of this sheet where you can do that. Start by renaming <strong><em>Loan 1</em></strong> to the name of your loan, for example "Chase Card". Put your current outstanding balance in the <strong><em>Current Balance</em></strong> column. Add in your Annual Percentage Rate (APR), and your monthly expected payment.  The title of the Loan will automatically change in the first row. From there, the current balance minus the months payment will be inserted into the current months cell. All following cells will populate with the balance of the previous month minus the payment plus interest. If you want to make an alternate payment for a specific month, either more or less than your default, you can put that number in the "Alt Payment" column and it will automatically adjust the current month, and all following months accordingly. Whenever a loan is completely payed off, it will zero out the balance of that loan for all future months. This is a great way to figure out how long it will take to pay off outstanding balances at any given recurring payment value, and how much additional payments of a specific value will effect the balance of the loan months or years in advance.
 </p>
 
 <a id="IncomeExpenses"></a>
 ##Income and Expenses (Type A)##
 
-<a href="/img/BudgetTemplate/Income.png" data-lightbox="Income"><img src="/img/BudgetTemplate/Income.png" alt="Income" width="400" height="300"/></a>
+<a href="/img/BudgetTemplate/Income.png" data-lightbox="Income"><img src="/img/BudgetTemplate/Income.png" alt="Income" width="800" height="300"/></a>
 
-<a href="/img/BudgetTemplate/Expenses1.png" data-lightbox="Expenses1"><img src="/img/BudgetTemplate/Expenses1.png" alt="Expenses1" width="400" height="300"/></a>
 <p></p>
 <p class="projectContent">
 	The <strong><em>Income and Expense (Type A)</em></strong> are nearly Identical. To use, simply put you income/expenses in the row with the appropriate month name, the date of the log entry (Not required, but I have found it useful) and add a description of the log (also not required, but useful). The overview will automatically populate based on the values logged in these pages.
@@ -95,8 +96,8 @@ The projections page is something I began work on in early 2013 as a tool to hel
 
 <a id="Expenses(B)"></a>
 ##Expenses (Type B)##
-<a href="/img/BudgetTemplate/Expenses2.png" data-lightbox="Expenses2"><img src="/img/BudgetTemplate/Expenses2.png" alt="Expenses2" width="800" height="300"/></a>
+<a href="/img/BudgetTemplate/MonthlyBills.png" data-lightbox="MonthlyBills"><img src="/img/BudgetTemplate/MonthlyBills.png" alt="MonthlyBills" width="800" height="300"/></a>
 <p></p>
 <p class="projectContent">
-	Nearly identical concept to <strong><em>Income and Expense (Type A)</em></strong>, the only different is the layout. Sheets that use this layout are for categories that only have 1 payment each month. Unlike something like restaurants where you may log in 10 or 20 restaurant expenses, you will only be paying a phone or electric bill once per month. Totals are agregated so you can see how much you are spending each month for all items in this category (row total), as well as how much you have spent all year for a specific item in the category (column total).
+	Nearly identical to <strong><em>Income and Expense (Type A)</em></strong>, the only different is the addition of sub-categories in the top row. Sheets that use this layout are for categories that only have 1 payment each month. Unlike something like restaurants where you may log in 10 or 20 restaurant expenses per month, you will only be paying a phone or electric bill once per month. 
 </p>
