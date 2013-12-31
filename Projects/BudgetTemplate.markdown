@@ -8,7 +8,7 @@ categories: Budget Financial Finances Spreadsheet Google Drive Docs
 ---
 <p></p>
 <p class = "projectHeader">
-<strong>NOTICE: This page is currently getting updated to support the new 2014 version of the template. Please be patient if there is some contradicting information, or missing and out of date screen shots. All information will be fully updated before January 1st, 2014i!</strong>
+<strong>NOTICE: This page is currently being updated to support the new 2014 version of the template. Please be patient if there are some contradicting pieces of information, or missing and out of date screen shots. All information will be fully updated by January 1st, 2014!</strong>
 </p>
 <p></p>
 <p class = "projectHeader">
