@@ -244,6 +244,12 @@ header{
 	text-align: center;
 	font-size: 30px;
 }
+
+.projectCategoryDescription{
+	text-align: center;
+	font-size: 15px;
+}
+
 .projectLanding{
 	padding: 5px;
 	text-align: center;
