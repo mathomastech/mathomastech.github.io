@@ -8,35 +8,26 @@ categories: Budget Financial Finances Spreadsheet Google Drive Docs
 ---
 <p></p>
 <p class = "projectHeader">
-<strong>NOTICE: This page is currently being updated to support the new 2014 version of the template. Please be patient if there are some contradicting pieces of information, or missing and out of date screen shots. All information will be fully updated by January 1st, 2014!</strong>
-</p>
-<p></p>
-<p class = "projectHeader">
 In the following links, you will find details for each type of page in the template. The 2 most complicated are "Projections", and "Loan Projections". The "Overview" sheet also has some unique behavior. The remaining sheets have been standardized so that learning one will help you use the others.
 </p>
 <p></p>
 <ul class = "projectQuickLinks">
-<li><a class="projectPage"  href="https://drive.google.com/templates?view=public&amp;authorId=01784685571608047934">Link to project</a></li>
-
-<li><a class="projectPage"  href="#GettingStarted">Getting Started</a></li>
-
-<li><a class="projectPage"  href="#Overview">Overview</a></li>
-
-<li><a class="projectPage"  href="#Projections">Projections</a></li>
-
-<li><a class="projectPage"  href="#LoanProjections">Loan Projections</a></li>
-
-<li><a class="projectPage"  href="#IncomeExpenses">Income</a></li>
-
-	<li><a class="projectPage"  href="#Expenses(B)">Expenses (Type B)</a></li>
+   <li><a class="projectPage"  href="https://drive.google.com/templates?view=public&amp;authorId=01784685571608047934">Link to project</a></li>
+   <li><a class="projectPage"  href="#GettingStarted">Getting Started</a></li>
+   <li><a class="projectPage"  href="#Overview">Overview</a></li>
+   <li><a class="projectPage"  href="#Projections">Projections</a></li>
+   <li><a class="projectPage"  href="#LoanProjections">Loan Projections</a></li>
+   <li><a class="projectPage"  href="#IncomeExpenses">Income and Expenses</a></li>
+   <li><a class="projectPage"  href="#Expenses(B)">Expense Sub Categories</a></li>
 </ul>
 
 
 <a id="GettingStarted"></a>
 ##Getting Started##
 <a href="/img/BudgetTemplate/GettingStarted.png" data-lightbox="GettingStarted"><img src="/img/BudgetTemplate/GettingStarted.png" alt="Getting Started" width="800" height="300"/></a>
+<p class="projectContent">
 The <strong><em>Getting Started</em></strong> page is one of the newest additions to this template. On this page you will find everything you need to know about setting up your budget and how to use it. There are pieces of information it will require from you, including the current year, and your bank balances. These are critical pieces of information. If they are ignored, parts of the template will become completely unusable. Make sure to take the time to fill out the information, and read through the tips and tricks.
-
+</p>
 
 <a id="Overview"></a>
 ##Overview##
@@ -85,19 +76,19 @@ The projections page is something I began work on in early 2013 as a tool to hel
 </p>
 
 <a id="IncomeExpenses"></a>
-##Income and Expenses (Type A)##
+##Income and Expenses##
 
 <a href="/img/BudgetTemplate/Income.png" data-lightbox="Income"><img src="/img/BudgetTemplate/Income.png" alt="Income" width="800" height="300"/></a>
 
 <p></p>
 <p class="projectContent">
-	The <strong><em>Income and Expense (Type A)</em></strong> are nearly Identical. To use, simply put you income/expenses in the row with the appropriate month name, the date of the log entry (Not required, but I have found it useful) and add a description of the log (also not required, but useful). The overview will automatically populate based on the values logged in these pages.
+	The <strong><em>Income and Expenses</em></strong> sheets are nearly Identical. To use, simply put your income/expenses in the row with the appropriate month name, the date of the log entry (Not required, but I have found it useful) and add a description of the log (also not required, but useful). The overview will automatically populate based on the values logged in these pages.
 </p>
 
 <a id="Expenses(B)"></a>
-##Expenses (Type B)##
+##Expenses Sub Categories##
 <a href="/img/BudgetTemplate/MonthlyBills.png" data-lightbox="MonthlyBills"><img src="/img/BudgetTemplate/MonthlyBills.png" alt="MonthlyBills" width="800" height="300"/></a>
 <p></p>
 <p class="projectContent">
-	Nearly identical to <strong><em>Income and Expense (Type A)</em></strong>, the only different is the addition of sub-categories in the top row. Sheets that use this layout are for categories that only have 1 payment each month. Unlike something like restaurants where you may log in 10 or 20 restaurant expenses per month, you will only be paying a phone or electric bill once per month. 
+	Nearly identical to <strong><em>Income and Expense</em></strong>, the only different is the addition of sub-categories in the top row. Sheets that use this layout are for categories that only have 1 payment each month. Unlike something like restaurants where you may log in 10 or 20 restaurant expenses per month, you will only be paying a phone or electric bill once per month. 
 </p>
