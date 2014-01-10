@@ -14,13 +14,13 @@
 /*************************************/
 /*****    Positioning Layouts    *****/
 /*************************************/
-.left{
+.card.left{
     position: relative;
     float: left;
     max-width: 450px;
     }
 
-.right{
+.card.right{
     position: relative;
     float: right;
     max-width: 450px;
@@ -49,14 +49,14 @@
 }
 
 /* Full Width Headers */
-.hLeft{ margin: -10px 0px 10px -10px; }
-.hCenter{ margin: -10px 0px 10px 39.5%; }
-.hRight{ margin: -10px 0px 10px 79.6%; }
+.header.left{ margin: -10px 0px 10px -10px; }
+.header.center{ margin: -10px 0px 10px 39.5%; }
+.header.right{ margin: -10px 0px 10px 79.6%; }
 
 /* Half Width Headers */
-.hHalfLeft{ margin: -10px 0px 10px -10px; }
-.hHalfCenter{ margin: -10px 0px 10px 27%; }
-.hHalfRight{ margin: -10px 0px 10px 58%; }
+.header.left.half{ margin: -10px 0px 10px -10px; }
+.header.center.half{ margin: -10px 0px 10px 27%; }
+.header.right.half{ margin: -10px 0px 10px 58%; }
 
 /*************************/
 /*****    Footers    *****/
@@ -70,9 +70,9 @@
     }
 
 /* Full Width Footers */
-.fLeft{ margin: 10px 0px -10px -10px; }
-.fCenter{ margin: 10px 0px -10px 39.5%; }
-.fRight{ margin: 10px 0px -10px 79.6%; }
+.footer.left{ margin: 10px 0px -10px -10px; }
+.footer.center{ margin: 10px 0px -10px 39.5%; }
+.footer.right{ margin: 10px 0px -10px 79.6%; }
 
 
 /* Half Width Footers */
@@ -80,19 +80,11 @@
 
 
 /*
-.footer{
-    font-size: 14pt;
-    background-color: rgb(37, 77, 37);
-    color: rgb(255, 255, 255);
-    text-align: center;
-    width: 200px;
-    }
+.footer.left.half{ margin: 0px 0px 0px -10px; }
 
-.fHalfLeft{ margin: 0px 0px 0px -10px; }
+.footer.center.half{ margin: 0px 0px -10px 27%; }
 
-.fHalfCenter{ margin: 0px 0px -10px 27%; }
-
-.fHalfRight{ margin: 0px 0px -10px 730px; }
+.footer.right.half{ margin: 0px 0px -10px 730px; }
 */
 
 
