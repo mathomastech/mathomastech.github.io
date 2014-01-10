@@ -9,7 +9,11 @@
     box-shadow: 0px 2px 3px rgb(153, 153, 153);
     }
 
-.content{ margin: 0px; }
+.content{ margin: 0px 0px 10px 0px; }
+
+.content.left{ text-align: left; }
+.content.center{ text-align: center; }
+.content.right{ text-align: right; }
 
 /*************************************/
 /*****    Positioning Layouts    *****/
@@ -79,13 +83,11 @@
 /* NOT YET SUPPORTED  */
 
 
-/*
 .footer.left.half{ margin: 0px 0px 0px -10px; }
 
 .footer.center.half{ margin: 0px 0px -10px 27%; }
 
-.footer.right.half{ margin: 0px 0px -10px 730px; }
-*/
+.footer.right.half{ margin: 0px 0px -10px 57.8%; }
 
 
 /*****************************************/
