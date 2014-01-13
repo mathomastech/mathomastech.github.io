@@ -1,0 +1,28 @@
+/*
+These are some suggested default settings for a website using the card layout.
+*/
+
+
+body{
+	background: rgb(209, 209, 209);
+	max-width: 950px;
+	min-width: 940px;
+	font-family: 'Roboto','Times New Roman', sans-serif; 	
+	font-size: 12pt;
+	color: rgb(59,59,59);
+	padding: 10px;
+	margin: 0px auto;	
+	overflow-y: scroll;
+}
+
+/*
+h1,h2,h3,h4{
+	margin: 0px;
+    }
+*/
+
+header{
+	margin-bottom: 0;
+	margin-top: 0;
+	overflow: auto;
+    }
