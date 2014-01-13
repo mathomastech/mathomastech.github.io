@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Budget Template"
-category: "Blog"
+category: "blog"
 author: "Marc Thomas"
 date:   2013-07-15 19:30:00
 categories: Budget Finance Financial Drive Money Spreadsheet Template

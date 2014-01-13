@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Google Tasks"
-category: "Blog"
+category: "blog"
 author: "Marc Thomas"
 date:   2013-08-29 12:00:00
 categories: google tasks to-do list gmail keep review technology
