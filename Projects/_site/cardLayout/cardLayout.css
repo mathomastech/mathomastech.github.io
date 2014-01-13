@@ -1,0 +1,246 @@
+/**************************************************/
+/*****          Dynamic Card Layouts          *****/
+/**************************************************/
+/*****              Version 0.5               *****/
+/**************************************************/
+.card{
+    background-color: white;
+    margin: 15px 0px 20px;
+    padding: 10px;
+    overflow: hidden ;
+    box-shadow: 0px 2px 3px rgb(153, 153, 153);
+    }
+
+.cardLeft{
+    background-color: white;
+    margin: 15px 0px 20px;
+    padding: 10px;
+    overflow: hidden;
+    position: relative;
+    float: left;
+    max-width: 450px;
+    box-shadow: 0px 2px 3px rgb(153, 153, 153);
+    }
+
+.cardRight{
+    background-color: white;
+    margin: 15px 0px 20px;
+    padding: 10px;
+    overflow: hidden;
+    position: relative;
+    float: right;
+    max-width: 450px;
+    box-shadow: 0px 2px 3px rgb(153, 153, 153);
+    }
+
+/************************************************/
+/*****          Fixed Card Layouts          *****/
+/************************************************/
+/*****            In Development            *****/
+/************************************************/
+.cardLeftSmall{
+    background-color: white;
+    margin: 15px 0px 20px;
+    padding: 10px;
+    overflow: hidden;
+    position: relative;
+    float: left;
+    max-width: 450px;
+    box-shadow: 0px 2px 3px rgb(153, 153, 153);
+    height: 100px;
+    }
+
+.cardRightSmall{
+    background-color: white;
+    margin: 15px 0px 20px;
+    padding: 10px;
+    overflow: hidden;
+    position: relative;
+    float: right;
+    max-width: 450px;
+    box-shadow: 0px 2px 3px rgb(153, 153, 153);
+    height: 100px;
+    }
+
+.cardLeftMedium{
+    background-color: white;
+    margin: 15px 0px 20px;
+    padding: 10px;
+    overflow: hidden;
+    position: relative;
+    float: left;
+    max-width: 450px;
+    box-shadow: 0px 2px 3px rgb(153, 153, 153);
+    height: 170px;
+    }
+
+.cardRightMedium{
+    background-color: white;
+    margin: 15px 0px 20px;
+    padding: 10px;
+    overflow: hidden;
+    position: relative;
+    float: right;
+    max-width: 450px;
+    box-shadow: 0px 2px 3px rgb(153, 153, 153);
+    height: 170px;
+    }
+   
+.cardLeftLarge{
+    background-color: white;
+    margin: 15px 0px 20px;
+    padding: 10px;
+    overflow: hidden;
+    position: relative;
+    float: left;
+    max-width: 450px;
+    box-shadow: 0px 2px 3px rgb(153, 153, 153);
+    height: 260px;
+    }
+
+.cardRightLarge{
+    background-color: white;
+    margin: 15px 0px 20px;
+    padding: 10px;
+    overflow: hidden;
+    position: relative;
+    float: right;
+    max-width: 450px;
+    box-shadow: 0px 2px 3px rgb(153, 153, 153);
+    height: 260px;
+    }
+
+.cardContent{
+	margin: 0px;
+    }
+
+/********************************************/
+/*****         Dynamic Headers          *****/
+/********************************************/
+/*****           Version 0.5            *****/
+/********************************************/
+.cardHeaderLeft{
+    background-color: rgb(37, 77, 37);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    width: 200px;
+    margin: -10px 0px 10px -10px;
+    font-weight: normal;
+    }
+
+.cardHeaderCenter{
+    background-color: rgb(37, 77, 37);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    width: 200px;
+    margin: -10px 0px 10px 39.5%;
+    font-weight: normal;
+    }
+
+.cardHeaderRight{
+    background-color: rgb(37, 77, 37);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    width: 200px;
+    margin: -10px 0px 10px 79.6%;
+    font-weight: normal;
+    }
+
+/******************************************/
+/*****         Fixed Headers          *****/
+/******************************************/
+/*****         In Development         *****/
+/******************************************/
+.cardHalfHeaderLeft{
+          background-color: rgb(37, 77, 37);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    width: 200px;
+    margin: -10px 0px 10px -10px;
+    font-weight: normal;
+    }
+
+
+.cardHalfHeaderCenter{
+    background-color: rgb(37, 77, 37);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    width: 200px;
+    margin: -10px 0px 10px 27%;
+    font-weight: normal;
+    }
+
+.cardHalfHeaderRight{ 
+    background-color: rgb(37, 77, 37);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    width: 200px;
+    margin: -10px 0px 10px 58%;
+    font-weight: normal;
+    }
+
+/*******************************************/
+/*****         Dynamic Footers         *****/
+/*******************************************/
+/*****           Version 0.5           *****/
+/*******************************************/
+.cardFooterLeft{
+    font-size: 14pt;
+    background-color: rgb(37, 77, 37);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    width: 200px;
+    margin: 10px 0px -10px -10px;
+    }
+
+.cardFooterCenter{
+    font-size: 14pt;
+    background-color: rgb(37, 77, 37);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    width: 200px;
+    margin: 10px 0px -10px 39.5%;    
+    }
+
+.cardFooterRight{
+    font-size: 14pt;
+    background-color: rgb(37, 77, 37);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    width: 200px;
+    margin: 10px 0px -10px 79.6%;
+    }
+
+/*****************************************/
+/*****         Fixed Footers         *****/
+/*****************************************/
+/*****         In Development        *****/
+/*****************************************/
+/*
+.cardHalfFooterLeft{
+    font-size: 14pt;
+    background-color: rgb(37, 77, 37);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    width: 200px;
+    margin: 0px 0px 0px -10px;
+    }
+
+.cardHalfFooterCenter{
+    font-size: 14pt;
+    background-color: rgb(37, 77, 37);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    width: 200px;
+    margin: 0px 0px -10px 27%;
+    }
+
+.cardHalfFooterRight{
+    font-size: 14pt;
+    background-color: rgb(37, 77, 37);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    width: 200px;
+    margin: 0px 0px -10px 730px;
+    }
+*/
