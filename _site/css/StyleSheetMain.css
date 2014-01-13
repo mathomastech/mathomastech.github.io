@@ -12,7 +12,7 @@ body{
 	overflow-y: scroll;
     }
 
-header{
+mainHeader{
 	margin-bottom: 0;
 	margin-top: 0;
 	overflow: auto;
@@ -373,77 +373,6 @@ header{
 	margin-left: 40%;
 	margin-right: 50%;
 }
-
-
-/***************************************
-*		Card Layout	       */
-
-
-
-.cardLayout{
-    background-color: white;
-    margin: 15px 0px 20px;
-    padding: 10px;
-    overflow: auto;
-    box-shadow: 0px 2px 3px rgb(153, 153, 153);
-    }
-
-.cardLayoutLeft{
-    background-color: white;
-    margin: 15px 0px 20px;
-    padding: 10px;
-    overflow: hidden;
-    position: relative;
-    float: left;
-    max-width: 450px;
-    box-shadow: 0px 2px 3px rgb(153, 153, 153);
-    height: 260px;
-    }
-
-
-.cardLayoutRight{
-    background-color: white;
-    margin: 15px 0px 20px;
-    padding: 10px;
-    overflow: hidden;
-    position: relative;
-    float: right;
-    max-width: 450px;
-    box-shadow: 0px 2px 3px rgb(153, 153, 153);
-    height: 260px;
-    }
-
-
-.cardContent{
-	margin: 0px;
-    }
-
-.cardHeader{
-    background-color: rgb(37, 77, 37);
-    color: rgb(255, 255, 255);
-    text-align: center;
-    width: 200px;
-    margin: -10px 0px 10px -10px;
-    font-weight: normal;
-    }
-
-.cardFooter{
-	font-size: 14pt;
-    background-color: rgb(37, 77, 37);
-    color: rgb(255, 255, 255);
-    text-align: center;
-    width: 200px;
-    margin: 0px 0px -10px 730px;
-    }
-
-.Address{
-	margin-top: 20px;
-    }
-
-.externalWebImg{
-    border: 1px solid rgb(136, 136, 136);
-    float: right;
-    }
 
 /***************************************
 *		Other	       */
