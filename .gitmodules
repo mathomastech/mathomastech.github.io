@@ -1,0 +1,4 @@
+[submodule "card"]
+	path = css/card
+	url = https://github.com/mathomastech/cardLayout.git
+	branch = master
