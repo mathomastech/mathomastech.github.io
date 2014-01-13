@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Bing vs. Google Maps Navigation"
-category: "blog"
+category: "Blog"
 author: "Marc Thomas"
 date:   2013-08-02 20:00:00
 categories: review Bing Google Maps Navigation Toyota Prius technology
