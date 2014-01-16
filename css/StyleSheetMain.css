@@ -395,7 +395,7 @@ mainHeader{
 ****************************************
 *		FOOTER		       */
 
-.footer{
+.mainFooter{
 	border-top: 2px solid gray;
 	text-align: center;
 	position:fixed;
