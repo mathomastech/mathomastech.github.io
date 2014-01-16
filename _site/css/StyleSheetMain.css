@@ -374,6 +374,11 @@ mainHeader{
 	margin-right: 50%;
 }
 
+.centeredArch img{
+    border: none;
+    margin-left: 27%;
+}
+
 /***************************************
 *		Other	       */
 

@@ -7,6 +7,9 @@ date:   2014-01-15 12:00:00
 categories: arch raspberrypi technology linux ubuntu
 ---
 
+<a class="centeredArch" href="/img/ArchPi/archlogo.png" data-lightbox="ArchLogo"><img src="/img/ArchPi/archlogo.png" alt="Arch Linux" width="400" height="133"/></a>
+
+
 Not long ago were the days where Linux was considered to difficult to use for the common person. Unfortunately, or perhaps fortunately, those days where mostly history before I first began dabbling with my first Linux system, Ubuntu 9.04. Although I didnt become a full time Linux user until sometime in the following years, I was able to successfully install and begin using it without the need to spend weeks of research and study. We are now in an age where anyone who has the desire to try Linux can, sometimes with a bit of help, learn how to install and run a distribution. In fact, dozens of Linux distributions are going out of their way to make themselves known as a system for new users. Just to name a few would be Ubuntu, Mint, and Raspbian.
 
 With these new systems being so user friendly, much of the existing user base have been split into two camps. Those with the old philosophy of being computer elitists, and those that want everyone to experience what free and liberated open source software can do for them. My following categorizations of these two groups are based on my experiences and are a generalization. Obviously, there are individuals in these camps that do not take on all the qualities, but as with any generalization, I will be focusing on some of the most common qualities. 
