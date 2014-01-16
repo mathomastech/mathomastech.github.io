@@ -11,7 +11,10 @@
 
 .content{ margin: 0px 0px 10px 0px; }
 .content.left{ text-align: left; }
-.content.center{ text-align: center; }
+.content.center{ 
+    text-align: center; 
+    margin: 0% 5% 10px;
+}
 .content.right{ text-align: right; }
 
 /******************************/
