@@ -325,6 +325,10 @@ mainHeader{
 	margin: 2px;
 }
 
+.comms img{
+    margin-left: -15%;
+}
+
 .projectHeader{
 	text-align: center;
 	margin: 0% 15%;
