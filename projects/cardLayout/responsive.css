@@ -1,0 +1,34 @@
+@media (max-width: 950px){
+
+    .card.left{
+        position: none;
+        float: none;
+        max-width: none;
+    }
+
+    .card.right{
+        position: none;
+        float: none;
+        max-width: none;
+    }
+
+    /* Full Width Headers */
+    .header.full{ 
+        width: 110%;
+        margin: -10px 0px 10px -10px;	
+    }
+    
+    /* Headers */
+    .header.center{ margin: -10px 0px 10px -10px; }
+    .header.right{ margin: -10px 0px 10px -10px; }
+    
+    .header.center.half{ margin: -10px 0px 10px -10px; }
+    .header.right.half{ margin: -10px 0px 10px -10px; }
+    
+    /* Footers */
+    .footer.center{ margin: 10px 0px -10px -10px; }
+    .footer.right{ margin: 10px 0px -10px -10px; }
+    
+    .footer.center.half{ margin: 0px 0px -10px -10px; }
+    .footer.right.half{ margin: 0px 0px -10px -10px; }
+}

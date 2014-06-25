@@ -6,7 +6,6 @@ These are some suggested default settings for a website using the card layout.
 body{
 	background: rgb(209, 209, 209);
 	max-width: 950px;
-	min-width: 940px;
 	font-family: 'Roboto','Times New Roman', sans-serif; 	
 	font-size: 12pt;
 	color: rgb(59,59,59);
