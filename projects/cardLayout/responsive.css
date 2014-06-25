@@ -1,4 +1,4 @@
-@media (max-width: 950px){
+@media (max-width: 950px) and (min-resolution: 300dpi){
 
     .card.left{
         position: none;
