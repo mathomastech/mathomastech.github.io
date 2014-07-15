@@ -1,1 +1,0 @@
-This is my personal website containing my blog, resume, and detailed walk throughs of projects I am working on.
