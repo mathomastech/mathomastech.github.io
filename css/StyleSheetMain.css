@@ -16,6 +16,17 @@ body{
 	overflow: auto;
 }
 
+h1{
+	text-align: center;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+h2{
+	text-align: center;
+	font-weight: bold;
+	font-size: 15pt;
+}
 /*******		BUTTON      *************/
 .nav{
 	background: none;
@@ -284,16 +295,6 @@ body{
 }
 
 /************  Project Formatting ***********/
-.projectCategory{
-	text-align: center;
-	font-size: 30px;
-}
-
-.projectCategoryDescription{
-	text-align: center;
-	font-size: 15px;
-}
-
 .projectLanding{
 	padding: 5px;
 	text-align: center;
@@ -370,7 +371,7 @@ body{
 }
 
 .comms img{
-    margin-left: -15%;
+    margin: auto;
 }
 
 .projectHeader{
@@ -426,23 +427,6 @@ body{
     border: none;
     margin-left: 27%;
 }
-
-/***************************************
-*		Other	       */
-
-.welcomePageHeaders{
-	text-align: center;
-	font-weight: bold;
-	font-size: 30px;
-    }
-
-.welcomePageBlogTitle{
-	text-align: center;
-	font-weight: bold;
-	font-size: 15pt;
-    }
-
-
 
 /* 		END BODY	       *
 ****************************************
