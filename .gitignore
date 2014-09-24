@@ -3,3 +3,4 @@ _site
 .stversions/
 *.swp
 *_conflict*
+serve/*
