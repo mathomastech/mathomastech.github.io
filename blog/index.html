@@ -19,7 +19,7 @@ layout: default
         <ul>
             {% for post in site.posts %}
                 {% if post.category == "blog" %}
-                <li class="blogLanding">
+                <li class="card_list">
                     <section class="card">
                         <h3 class="header left">{{ post.date | date_to_string }} </h3>
                         <p class="content title" > {{ post.title }} </p>
