@@ -34,16 +34,16 @@ h2, h3{
 	list-style: none;
 	font-weight: lighter;
 	font-style: normal;
-	float:left;
+	float:right;
 	background: none;
-	border-right: 1px solid gray;
-	height: 700px;
-	margin-top: 50px;
+/*	border-left: 1px solid gray; */
+/*	height: 700px; */
+/*	margin-top: 50px; */
 	padding: 5px;
 	width: 200px;
-	position: fixed;
-	top: 5%;
-	left: 0%;
+	position: fixed; 
+/*	top: 5%; */
+	left: 90%;
 	line-height: 40px;
 	display: block;
 }
