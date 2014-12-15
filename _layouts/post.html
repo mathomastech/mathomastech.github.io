@@ -1,21 +1,22 @@
 ---
 layout: default
 ---
+<section class="card">
+        <h3 class="header left"> {{ page.date | date_to_string }} </h3>
+        <p class="content title" > {{ page.title }} </p>
+        <p class="post"> {{ content }} </p>
+</section>
 
 <div>
-    <aside>
-        <ul class="LeftLinks">
+    <nav id="blog-menu" class="blog-menu">
+        <a href="" class="blog-menu-trigger"><span>More Posts</span></a>
+        <ul>
             {% for post in site.posts %}
                 {% if post.category == "blog" %}
                     <li><a href="{{ post.url }}">{{ post.title }}</a> </li>
                 {% endif %}
             {% endfor %}
         </ul>  
-     </aside> 
-</div>
+    </nav>
+</div> 
 
-<section class="card">
-        <h3 class="header left"> {{ page.date | date_to_string }} </h3>
-        <p class="content title" > {{ page.title }} </p>
-        <p class="post"> {{ content }} </p>
-</section>

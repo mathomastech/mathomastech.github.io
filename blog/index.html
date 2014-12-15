@@ -3,30 +3,30 @@ layout: default
 ---
 
 <div>
-    <aside>
-        <ul class="LeftLinks">
+    <ul>
+        {% for post in site.posts %}
+            {% if post.category == "blog" %}
+            <li class="card_list">
+                <section class="card">
+                    <h3 class="header left">{{ post.date | date_to_string }} </h3>
+                    <p class="content title" > {{ post.title }} </p>
+                    <p class="post"> {{ post.content }} </p> 
+                </section>
+            </li>
+            {% endif %}
+        {% endfor %}
+    </ul>  
+</div>
+<div>
+    <nav id="blog-menu" class="blog-menu">
+        <a href="" class="blog-menu-trigger"><span>More Posts</span></a>
+        <ul>
             {% for post in site.posts %}
                 {% if post.category == "blog" %}
                     <li><a href="{{ post.url }}">{{ post.title }}</a> </li>
                 {% endif %}
             {% endfor %}
         </ul>  
-     </aside> 
-</div>
+    </nav>
+</div> 
 
-
-<div>
-        <ul>
-            {% for post in site.posts %}
-                {% if post.category == "blog" %}
-                <li class="card_list">
-                    <section class="card">
-                        <h3 class="header left">{{ post.date | date_to_string }} </h3>
-                        <p class="content title" > {{ post.title }} </p>
-                        <p class="post"> {{ post.content }} </p> 
-                    </section>
-                </li>
-                {% endif %}
-            {% endfor %}
-        </ul>  
-</div>
