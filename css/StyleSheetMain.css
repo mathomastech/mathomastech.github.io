@@ -103,6 +103,57 @@ h2, h3{
 	line-height: 40px;
 }
 
+/************  Budget Formatting *********/
+
+.budgetHeader{
+    text-align:left;
+    font-size: 48px;
+    margin-bottom: 0px;
+}
+
+.budgetSubHeader{
+    text-align:left;
+    font-size: 24px;
+    color:#7C7C7C;
+}
+
+.budgetVersion{
+    text-align:left;
+    font-size: 12px;
+    color:#7C7C7C;
+}
+
+.budgetSectionHeader{
+    text-align:left;
+    font-size:24px;
+}
+
+.downloads{
+    margin-bottom:80px;
+}
+.downloads ul{
+    list-style-type: none;
+}
+.downloads ul li button{
+    border-radius: 30px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #CBCBCB #B7B7B7 #B3B3B3;
+    color: #303030;
+    line-height: 25px;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 12px 8px;
+    display: block;
+    float: left;
+    width: 179px;
+    margin-right: 14px;
+    margin-bottom: 14px;
+    background: -moz-linear-gradient(center top , #FDFDFD 0%, #F2F2F2 100%) repeat scroll 0% 0% transparent;
+    box-shadow: 0px 1px 5px #E8E8E8;
+
+}
+
 /************  Blog Formatting ***********/
 .author{
 	text-align: center;
