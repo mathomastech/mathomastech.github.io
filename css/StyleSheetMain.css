@@ -194,6 +194,10 @@ button{
 
 }
 
+.inactive-button{
+    background: -moz-linear-gradient(center top , #858585 0%, #B4B4B4 100%) repeat scroll 0% 0% transparent;
+}
+
 /************  Blog Formatting ***********/
 .author{
 	text-align: center;
