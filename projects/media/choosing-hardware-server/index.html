@@ -1,0 +1,30 @@
+---
+layout: default
+---
+
+<section class="card">
+    <h1> Choosing Your Hardware - Server</h1>
+    <p>There are a couple ways to approach building a server. One of the most common methods for people building their first server, is to reuse an old desktop. These computers tend to make pretty good servers, because there is very little upfront cost and nearly every component in a standard desktop computer can be used in a server. A few notable exception would be hard disk drives (HDD), and graphics cards. If you are running a headless server, there is virtually no reason to have a dedicated graphics card since you can do everything you need to from the command line interface (CLI). HDD are another component that differs a bit. While there is nothing wrong with using the HDD in your desktop, most desktops only have 1 or 2 HDD. Where as a media server typically has multiple HDD at larger capacities. More on why this is will be explained shortly.</p>
+
+    <p>The other common approach to setting up a server is to build it from the ground up. So let's talk about the different components you might want to look for while building your server.</p>
+    
+    <hr>
+
+    <p><strong>Motherboard</strong></p>
+    <p>Motherboards come in several different sizes. The most common being ATX. This is what you find in most computers on the shelves at your local computer store. Since we will be running Linux, its best to find an Intel compatible motherboard. Intel has shown itself in recent history to have the best hardware support for Linux.</p> You will also want to find a motherboard that has a relatively large number of E-SATA ports, as they will be the primary method of connecting HDD.</p>
+
+    <p><strong>CPU</strong></p>
+    <p>There are a handful of really popular Intel CPU's on the market right now. Since we went with an Intel motherboard I would recommend something along the lines on an Intel i3 processor. If you intend to use this computer for other things in addition to a media server, you may want to get a better processor, but that is up to you to decide!</p>
+
+    <p><strong>RAM</strong></p>
+    <p>I would recommend about 4 GB of RAM, though 2GB would probably be perfectly sufficient. Keep in mind, you can always upgrade to more RAM later down the road if you find yourself maxing it out, and RAM is relatively inexpensive.</p>
+
+    <p><strong>Hard Disk Drives (HDD)</strong></p>
+    <p>This is one of the more important decision to make. HDD space is one of the primary reasons to even build a dedicated media server. For this category, I would recommend purchasing as many Terabyte (TB) or multi TB drives of identical size and speed as your budget allows. Keep in mind, you can always expand your drives down the road, but if you put your drives in a RAID array, you will need to stick with drives of similiar size in order to get the full benefits of RAID. I would caution heavily against purchasing solid state drives for a few reasons. First of all, they are rediculously expensive compared to a HDD of the same size. They also have a lower capacity for rewriting data, so on a server that has large amounts of reading and writing occuring, they will actually fail sonner than a HDD.</p> 
+
+    <p><strong>Power Supply</strong></p>
+    <p>I would recommend visiting <a href="http://extreme.outervision.com/psucalculatorlite.jsp" target="_blank">this</a> website and plugging in your hardware specs. It will give you a pretty reliable estimate of how big of a power supply you will need.</p>
+
+    <p><strong>Case/Chasis</strong></p>
+    <p>For the case, there are 3 main things you want to look for. First, make sure it is compatible with the size of motherboard you chose. Second, make sure it has good air flow. This is important because your media server will most likely be running 24/7. Lastly, make sure it is capable of holding at least as many HDD as you intend to purchase, including how many you may want to expand to down the road.</p>
+</section>
