@@ -68,7 +68,7 @@ h4{
 	margin: 0% 10% 5% 10%;
 }
 
-.projectThumb{
+.projectThumbBoarder{
 	border: 2px solid black;
 	border-radius: 5%;
 }
@@ -83,10 +83,10 @@ h4{
 	text-align: center;
 	position: absolute;
 	font-size: 20px;
-	bottom:5px;
+	bottom: -25px;
 	color:black;
-	left:10%;
-	right: 10%;
+	left:0%;
+	right:0%;
 }
 
 .projectQuickLinks{
@@ -116,6 +116,12 @@ h4{
     font-size: 48px;
     margin-bottom: 0px;
 }
+.budgetHeader img{
+    float: right;
+    width: 200px;
+    height: 200px;
+}
+
 
 .budgetSubHeader{
     text-align:left;
