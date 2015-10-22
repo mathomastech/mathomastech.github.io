@@ -10,7 +10,10 @@ layout: default
 <section class="card">
     <h1>Installing and Setting up Kodi</h1>
     <p>Installing kodi is as simple and running this command</p>
-    <p><code>pacman -S kodi</code></a>
+    <div class="codeblock"><code>
+        pacman -S kodi
+        </code>
+    </div>
     <p><h2>Add you personal movies, tv shows, music, and picture collections.</h2></p>
     <p>Adding Movies or TV shows both follow the same steps.</p>
     <ul>
@@ -25,4 +28,169 @@ layout: default
 
     <p>For Pictures and music, the same directions as above will work, except you do not need to specify what kind of content the directory contains.</p>
     <p>You can edit any of the above items my pressing "c" on the source you just set up. This will allow you to change the source location, name, media type, etc.</p>
+</section>
+
+<section class="card">
+    <h1>Meta-Data Scrapers, Folder Structure and Naming Conventions</h1></p>
+    <p>Laying our your media in a specific folder structure and following a standard naming convention are both key to having meta-data scrapers identify your media correctly. So lets identify what a meta-data scraper is, and how to organize your media properly.</p>
+    <p><h2>Meta-Data Scrapers</h2></p>
+    <p>A <strong>meta-data scraper</strong> is a program that analyses your files and apply's meta-data to them to improve your experience and increase searchability. Some examples of meta-data include:
+    <ul>
+        <li>Movie/Episode/Song name</li>
+        <li>Description</li>
+        <li>Artwork including cover, poster, and album art</li>
+        <li>Artist and Actor information</li>
+    </ul>
+    <p>By default, Kodi uses "The Television Database", or TVDB, for scraping information from tv shows, and "The Movie Database" for movies. There are also quite a few addons that search other media databases. Many of them are for niche genre's, such as a scraper specifically for Anime.</p>
+    <p>If you choose to use a third party scraper, the folder structure and file naming conventions below should still work relatively well, however it would not hurt to read the scrapers documentation to learn how they want things layed out so you get the best experience.</p>
+
+    <br>    
+    <p><h2>Folder Structure and Naming Convention - Movies</h2></p>
+    <p>The most complete reference on folder structure and naming conventions within Kodi can be found <a href="http://kodi.wiki/view/Naming_video_files/Movies">here</a>. They document several different options for folders and files. It's a great resource and I definitely recommend reading through it. What I would like to do here is simplify their instructions and present the conventions I am currently using.</p>
+    <p>For ease of understanding, I will be using the "~" symbol to represent the root directory of your media. So in my case, my media is stored here: "/home/media/Movies". When talking about movies, "~" will represent "/home/media/Movies/"</p>
+    
+    <p>I have chosed to have a flat folder structure for movies. What this means is that all my movie files sit in the ~ directory. Here is what that looks like</p>
+    <div class="codeblock"><code>
+        ~/Spider-man.1.(2002).mkv <br>
+        ~/Spider-man.2.(2004).mkv <br>
+        ~/Spider-man.3.(2007).mkv <br>
+        ~/The.Amazing.Spider-Man.(2012).mkv <br>
+        ~/The.Lord.of.the.Rings.The.Two.Towers.(2002).part1.mkv <br>
+        ~/The.Lord.of.the.Rings.The.Two.Towers.(2002).part2.mkv
+        </code>
+    </div>
+    <p>This is probably the simplist approach, and I have found it to be very reliable.</p>
+    <p>The other common approach is to use a folder that contains the movie file. This is the prefered method especially if you have a lot of multi-part movies, or your movies are split into video_ts and audio_ts folders. This method will look something more like this:</p>
+    <div class="codeblock"><code>
+            ~/Spider-man 1 (2002)/Spiderman.1.(2002).mkv <br>
+            ~/Spider-man 2 (2004)/t00.mkv <br>
+            ~/Spider-man 3 (2007)/asdf.mkv <br>
+            ~/The Lord of the Rings The Two Towers (2002)/part1.mkv <br>
+            ~/The Lord of the Rings The Two Towers (2002)/part2.mkv <br>
+        </code>
+    </div>
+    <p>This approach offers some additional flexibility which may be useful. The most notible difference here is that the file name doesn't matter, but rather it's the folder name that must conform and be consistant. The exception to that rule is multi-part movies. We will discuss those in more detail shortly</p>
+
+    <p> Now that we have a good handle on how to use folder's properly, lets dig into the naming conventions. In our first example, there are 4 major components to be aware of, though not every file will have all 5 of them. This applies to both folders and files, regardless of which organization method you have chosen</p>
+    <ul>
+        <li><p>Movie Name (Required)- Words should be separated by either a space (" "), a ".", or a "-". I personally prefer using a ".", but the most important thing is to be consistant.</p>
+            <div class="codeblock"><code>
+                    ~/<strong>Spider-man.1</strong>.(2002).mkv <br>
+                </code>
+            </div>
+        
+        </li>
+        <li><p>Year (Optional, but highly recommended) - The year though be at the end of the file name and should be surrounded my parenthesis. This is especially important for movies that have been remade or have non-unique names. This will be used to differentiate which version of the movie to pull meta-data for.</p>
+            <div class="codeblock"><code>
+                    ~/Spider-man.1.<strong>(2002)</strong>.mkv <br>
+                </code>
+            </div>
+        </li>
+        <li><p>Container Extension (Required) - This will typically be .mkv, or .mp4, but there are other options out there as well. The software you used to create the media file will handle this, just make sure that when you rename your file, you keep this extension.</p>
+            <div class="codeblock"><code>
+                    ~/Spider-man.1.(2002)<strong>.mkv</strong><br>
+                </code>
+            </div>
+        </li>
+        <li><p>Part Number (Optional) - This only applies to movies that are split between multiple files. To do this, add the part number AFTER the year. It should be the very last thing before the container extention. Kodi will seamlessly stitch the files together while playing to video, so you don't have to!</p>
+            <div class="codeblock"><code>
+                    ~/The.Lord.of.the.Rings.The.Two.Towers.(2002)<strong>.part1</strong>.mkv <br>
+                    ~/The.Lord.of.the.Rings.The.Two.Towers.(2002)<strong>.part2</strong>.mkv
+                </code>
+            </div>
+            <p> It's worth noting that this last rule varies a bit depending on whether you use a flat file structure, or if you organize your movies each into their own folder. If you do the latter, the part number must be on the file name, while the rest of the parts must be on the folder.
+            <div class="codeblock"><code>
+                    ~/The Lord of the Rings The Two Towers (2002)/<strong>part1</strong>.mkv <br>
+                    ~/The Lord of the Rings The Two Towers (2002)/<strong>part2</strong>.mkv <br>
+                </code>
+            </div>
+
+        </li>
+    </ul>
+    <br>
+    <p><h2>Folder Structure and Naming Convention - TV Shows</h2></p>
+    <p>The most complete reference on folder structure and naming conventions within Kodi can be found <a href="http://kodi.wiki/view/Naming_video_files/TV_shows">here</a>. They document several different options for folders and files. It's a great resource and I definitely recommend reading through it. What I would like to do here is simplify their instructions and present the conventions I am currently using.</p>
+    <p>For ease of understanding, I will be using the "~" symbol to represent the root directory of your media. So in my case, my media is stored here: "/home/media/TV". When talking about TV, "~" will represent "/home/media/TV/"</p>
+   
+    <p>TV shows follow much of the same conventions as movies, but with a few small differences. Most notably are the heavy use of folder structure, and the naming convention of the actual episode files. I find the best method of folder structure and naming convention to look like this:</p>
+    <div class="codeblock"><code>
+        ~/Doctor Who (2005)<br>
+            <div class="single-tab">/Season 1 <br></div>
+            <div class="double-tab">
+                /S01E01 <br>
+                /S01E02 <br>
+                /S01E03 <br>
+                /S01E04 <br>
+            </div>
+            <div class="single-tab">/Season 2 <br></div>
+            <div class="double-tab">
+                /S02E01 <br>
+                /S02E02 <br>
+            </div>
+        </code>
+    </div>
+    <p>Lets jump right into the breakdown of what we are looking at. If you haven't read the above section on movies, I would recommend you do so, as I have broken down all the components in depth there, and will be identifying many of the same components here.</p>
+    <ul>
+        <li><p>TV Show Name - This will be the first folder in your TV root directory.</p>
+            <div class="codeblock">
+                <code>
+                    ~/<strong>Doctor Who</strong> (2005)<br>
+                        <div class="single-tab">/Season 1 <br></div>
+                        <div class="double-tab">
+                            /S01E01 <br>
+                </code>
+            </div>
+        </li>
+        <li><p>Year - This will follow the name of the show.</p>
+            <div class="codeblock">
+                <code>
+                    ~/Doctor Who <strong>(2005)</strong><br>
+                        <div class="single-tab">/Season 1 <br></div>
+                        <div class="double-tab">
+                            /S01E01 <br>
+                </code>
+            </div>
+        </li>
+        <li><p>Season Number (folder)- This will be a folder that sits within the TV Show folder.</p>
+            <div class="codeblock">
+                <code>
+                    ~/Doctor Who (2005)<br>
+                        <div class="single-tab">/<strong>Season 1</strong> <br></div>
+                        <div class="double-tab">
+                            /S01E01 <br>
+                </code>
+            </div>
+        </li>
+        <li><p>Season Number (file name)- This is the first part of the file name. The "S" stands for "Season" which would mean this file is defined as being part of Season 01. As you may have noticed, this is the second instance where we define the season number. The reason for this is that the season folder can be omitted and the scraper will use the file name. However, I have found using both the folder separation and the file name to yield the best results.</p>
+            <div class="codeblock">
+                <code>
+                    ~/Doctor Who (2005)<br>
+                        <div class="single-tab">/Season 1 <br></div>
+                        <div class="double-tab">
+                            /<strong>S01</strong>E01 <br>
+                </code>
+            </div>
+        </li>
+        <li><p>Episode Number- This is the second part of the file name. The "E" stands for "Episode" which would mean this file is defined as being episode 01.</p>
+            <div class="codeblock">
+                <code>
+                    ~/Doctor Who (2005)<br>
+                        <div class="single-tab">/Season 1 <br></div>
+                        <div class="double-tab">
+                            /S01<strong>E01</strong> <br>
+                </code>
+            </div>
+        </li>
+    </ul>
+    <p>As long as you stick with these conventions, the scrapers should be able to pick out the correct meta-data for your media. There may be instances where a TV special does not have a defined season or episode number, in which case you will need to visit the scrapers website, and find that episode within their database. From there you should be able to figure out how to name your file so it is recognized correctly. Here is an example of how TheTVdb.com handles the Doctor Who Christmas Special "The Last Christmas":
+    <div class="codeblock"><code>
+        ~/Doctor Who (2005)<br>
+            <div class="single-tab">/Specials <br></div>
+            <div class="double-tab">
+                /S00E142 <br>
+            </div>
+        </code>
+    </div>
+    <p>In this instance, the scraper has placed all the Doctor Who specials in "Season 0", and defined this episodes number as "142". These numbers may coorelate to something, or they may be completely arbitrary. So in order to correctly identify specials, you will need to look up each on individually.</p>
+
 </section>

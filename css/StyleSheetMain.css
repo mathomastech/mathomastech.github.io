@@ -239,6 +239,16 @@ button{
     margin-left: 27%;
 }
 
+.codeblock{
+    margin-left:50px;
+}
+.single-tab{
+    margin-left:50px;
+}
+.double-tab{
+    margin-left:100px;
+}
+
 /* 		END BODY	       *
 ****************************************/
 
