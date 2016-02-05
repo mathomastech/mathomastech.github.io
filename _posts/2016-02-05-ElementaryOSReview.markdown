@@ -7,6 +7,8 @@ date:   2016-02-05 12:00:00
 categories: technology linux ElementaryOS Elementary ubuntu review
 ---
 
+<img src="/img/Elementary_Logo.png" alt="Elementary OS" width="250" height="250" style="margin-left:35%"/>
+
 About a month ago, I decided to do the unthinkable. I formatted by perfectly running Arch Linux install on my primary computer, a System 76 Galago Ultrapro. There was absolutely nothing wrong with the setup, so my reasoning for doing this move can only be described as boredom. I've been using the same install, with the same desktop environment (Gnome 3.18) and window manager (Awesome WM), with the same everything for over a year. While I was perfectly productive, I was starting to get a bit bored with it and desired something different. Something I was less familiar with, and that was a bit newer, shiner, and maybe even a bit less refined. Enter Elementary OS.
 
 Before this en devour, I already had some history with Elementary OS. In fact, this is the 4th computer in my household that is running Elementary OS. I have it running on a Macbook Air that my wife uses occasionally, and on two laptops that I purchased and maintain for the local Coder Dojo that I am co-champion of. I also have been financially backing the project on Patreon for several months now, ever since I installed it on the first Coder Dojo laptop. Furthermore, I have also helped install Elementary OS on a few college student machines who's Window's setup wasn't working for them. I've fiddled with Elementary OS primarily on the Coder Dojo laptops in the past, but I've never really sat down with it and tried to get real work done. After all, my work flow is way to complicated and customized for something like Elementary OS, right?
