@@ -1,12 +1,11 @@
 ---
 layout: post
-title:  "Elementary OS "Freya" Review"
+title:  "Elementary OS 'Freya' Review"
 category: "blog"
 author: Marc Thomas
-date:   2014-12-15 12:00:00
+date:   2016-02-05 12:00:00
 categories: technology linux ElementaryOS Elementary ubuntu review
 ---
-
 
 About a month ago, I decided to do the unthinkable. I formatted by perfectly running Arch Linux install on my primary computer, a System 76 Galago Ultrapro. There was absolutely nothing wrong with the setup, so my reasoning for doing this move can only be described as boredom. I've been using the same install, with the same desktop environment (Gnome 3.18) and window manager (Awesome WM), with the same everything for over a year. While I was perfectly productive, I was starting to get a bit bored with it and desired something different. Something I was less familiar with, and that was a bit newer, shiner, and maybe even a bit less refined. Enter Elementary OS.
 
@@ -30,13 +29,13 @@ Elementary OS comes with the open source Nouveau video drivers, and while I am a
 
 This gripe section is actually a lot longer than I had originally anticipated, so let's wrap it up with a few bugs I've run into. And for reference, yes I have reported all of these back to Elementary OS so hopefully they will get addressed soon. 
 
-The application launcher often fails to start properly when first booting up when I press “super+space” right away, or click on “Applications”. It's behavior is very weird, and becomes unusable for an extended period of time. It has even on several occasions required me to log out and back in before it functions again. 
-Launching new applications, especially when using keyboard shortcuts to do so, will occasionally cause the application to launch behind your current one. This is especially problematic if you try launching it again without realizing it's hiding behind the window you are looking at. I've have ended up with 5+ terminals because of this before realizing that it probably did launch and I need to switch to it. Also, sometimes it will launch in the foreground, but focus will remain on the previous window you where using it. So if you start typing, input is being sent to the wrong application.
-There is some minor screen tearing when you use keyboard shortcuts to switch to a non-existing workspace. Purely cosmetic.
-Application snapping animations when moving from side to side is a bit weird for some application, but perfectly fine for others. Might be something to do with GTK 2, and early GTK 3 applications. 
-Recently updated applications don't always show up when searching in Slingshot right away, even though you can page to them and open them by clicking on the icon. 
-Midori ignores standard keyboard bindings for closing a tab/window and requires ctrl+shift+w and ctrl+shift+q instead of the standard ctrl+w and ctrl+q. This might be a Midori Issue more than an Elementary issue, but considering Elementary OS ships Midori by default, and is known to manually patch applications for their desktop, I feel this is something they could, and should fix.
-Selecting a notification from the bell icon should switch focus to the application, but it only does so if you are on the workspace that the application is on, and not every time for that matter. If you are not on the same workspace, the notification gets marked as read, but no other action occurs, requiring you to manually switch workspaces and switch to the appropriate application that generated the notification.
+- The application launcher often fails to start properly when first booting up when I press “super+space” right away, or click on “Applications”. It's behavior is very weird, and becomes unusable for an extended period of time. It has even on several occasions required me to log out and back in before it functions again. 
+- Launching new applications, especially when using keyboard shortcuts to do so, will occasionally cause the application to launch behind your current one. This is especially problematic if you try launching it again without realizing it's hiding behind the window you are looking at. I've have ended up with 5+ terminals because of this before realizing that it probably did launch and I need to switch to it. Also, sometimes it will launch in the foreground, but focus will remain on the previous window you where using it. So if you start typing, input is being sent to the wrong application.
+- There is some minor screen tearing when you use keyboard shortcuts to switch to a non-existing workspace. Purely cosmetic.
+- Application snapping animations when moving from side to side is a bit weird for some application, but perfectly fine for others. Might be something to do with GTK 2, and early GTK 3 applications. 
+- Recently updated applications don't always show up when searching in Slingshot right away, even though you can page to them and open them by clicking on the icon. 
+- Midori ignores standard keyboard bindings for closing a tab/window and requires ctrl+shift+w and ctrl+shift+q instead of the standard ctrl+w and ctrl+q. This might be a Midori Issue more than an Elementary issue, but considering Elementary OS ships Midori by default, and is known to manually patch applications for their desktop, I feel this is something they could, and should fix.
+- Selecting a notification from the bell icon should switch focus to the application, but it only does so if you are on the workspace that the application is on, and not every time for that matter. If you are not on the same workspace, the notification gets marked as read, but no other action occurs, requiring you to manually switch workspaces and switch to the appropriate application that generated the notification.
 
 Let's change gears now. I've been ripping pretty hard on Elementary OS for a lot of things. Some of which are in their control, and some of which are not. Let's instead talk a bit about some of the really great things in Elementary OS. Starting with the installation. Not a whole lot to say other than it was dead simple. If you've ever done a Linux install before, than you will not have any issues doing this one. And if you haven't done a Linux install before, then you will probably still find this as easy as you'd expect. After Elementary OS is installed, the most polished startup processes on any Linux distribution occurs. There is a distinct lack of a grub menu when you boot up. Instead, you get a nice Elementary OS logo splash screen. This is the first Linux distribution I have ever used that actually does this, and I have made the comment before many times over the years that all Linux distributions should do this. This is awesome! Details like this might seem minor, but they have a pretty large impact on the end user experience.
 
